@@ -86,6 +86,7 @@
    <wvobject fp_name="/BRAM_TEST_with_CACHE/tester" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">tester[15:0]</obj_property>
       <obj_property name="ObjectShortName">tester[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/BRAM_TEST_with_CACHE/c_bus" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">c_bus[15:0]</obj_property>

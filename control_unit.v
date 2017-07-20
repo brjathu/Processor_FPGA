@@ -93,8 +93,8 @@ module control_unit(
 				  
 				  LOAD1	 = 9'b011100000,
 				  LOAD2	 = 9'b111100110,
-				  LOAD3	 = 9'b011100010,
-				  LOAD4	 = 9'b011100011,
+				  LOAD3	 = 9'b111100010,
+				  LOAD4	 = 9'b111100011,
 				  LOAD_WAIT = 9'b011100110,
 				  
 				  STORE1  = 9'b011101000,
@@ -192,8 +192,8 @@ module control_unit(
 			SHFRI2	: data_out <= {5'b00000,3'b001,3'b000,5'b10101, write_loc 			 , (operand1) ,3'b000};
 			
 			LOAD1		: data_out <= {5'b11100,3'b110,3'b000,5'b00101,   16'b0001000000000000 		,(operand2),3'b000};
-			LOAD2		: data_out <= {5'b11100,3'b010,3'b000,5'b11000,   16'b0    		      , 4'b0  ,3'b000};
-			LOAD3		: data_out <= {5'b11100,3'b011,3'b000,5'b11000,   16'b0    		      , 4'b0  ,3'b000};
+			LOAD2		: data_out <= {5'b11100,3'b010,3'b000,5'b11000,   16'b0    		      , 4'b0  ,3'b010};
+			LOAD3		: data_out <= {5'b11100,3'b011,3'b000,5'b11000,   16'b0    		      , 4'b0  ,3'b010};
 			LOAD4    : data_out <= {5'b00000,3'b001,3'b000,5'b00101,   write_loc 			, 4'b1011 ,3'b000};
 			LOAD_WAIT: data_out <= {5'b11100,3'b110,3'b000,5'b11000,   16'b0              , 4'b0  ,3'b010};
 			

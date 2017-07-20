@@ -415,3 +415,59 @@ Simulator is doing circuit initialization process.
  Block Memory Generator data initialization complete.
 Block Memory Generator CORE Generator module BRAM_TEST_with_CACHE.uut.bram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
 Finished circuit initialization process.
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '1704@licserver.mrt.ac.lk' in /home/brjathu/.flexlmrc.
+WARNING:Security:42 - Your license support version '2017.07' for ISIM expires in 11 days after which you will not qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 100 ms
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module BRAM_TEST_with_CACHE.uut.bram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '1704@licserver.mrt.ac.lk' in /home/brjathu/.flexlmrc.
+WARNING:Security:42 - Your license support version '2017.07' for ISIM expires in 11 days after which you will not qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 100 ms
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module BRAM_TEST_with_CACHE.uut.bram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '1704@licserver.mrt.ac.lk' in /home/brjathu/.flexlmrc.
+WARNING:Security:42 - Your license support version '2017.07' for ISIM expires in 11 days after which you will not qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 100 ms
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module BRAM_TEST_with_CACHE.uut.bram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '1704@licserver.mrt.ac.lk' in /home/brjathu/.flexlmrc.
+WARNING:Security:42 - Your license support version '2017.07' for ISIM expires in 11 days after which you will not qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 100 ms
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module BRAM_TEST_with_CACHE.uut.bram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.

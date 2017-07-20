@@ -28,7 +28,7 @@ WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Lin
 WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 154: Port ck_out is not connected to this instance
 WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 155: Port ck_out is not connected to this instance
 WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 156: Port ck_out is not connected to this instance
-WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 157: Port ck_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 158: Port ck_out is not connected to this instance
 WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 159: Port ck_out is not connected to this instance
 WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 160: Port ck_out is not connected to this instance
 WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 161: Port ck_out is not connected to this instance
@@ -38,8 +38,8 @@ WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Lin
 WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 172: Port to_cu is not connected to this instance
 WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 176: Port ck_out is not connected to this instance
 Completed static elaboration
-Fuse Memory Usage: 96456 KB
-Fuse CPU Usage: 1190 ms
+Fuse Memory Usage: 96468 KB
+Fuse CPU Usage: 1110 ms
 Compiling module clock_divider(num_clk=5)
 Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
 Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
@@ -58,6 +58,7 @@ Compiling module mux8
 Compiling module register
 Compiling module register(init_val=6)
 Compiling module register(init_val=15)
+Compiling module register(init_val=7)
 Compiling module registerSpecial
 Compiling module registerSpecial(init_val=1)
 Compiling module register(init_val=20)
@@ -68,8 +69,8 @@ Compiling module BRAM_TEST_with_CACHE
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 26 Verilog Units
+Compiled 27 Verilog Units
 Built simulation executable /home/brjathu/FPGA/Processor_FPGA/BRAM_TEST_with_CACHE_isim_beh.exe
-Fuse Memory Usage: 1184604 KB
-Fuse CPU Usage: 1270 ms
-GCC CPU Usage: 180 ms
+Fuse Memory Usage: 1184640 KB
+Fuse CPU Usage: 1180 ms
+GCC CPU Usage: 150 ms

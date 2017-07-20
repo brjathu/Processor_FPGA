@@ -121,6 +121,22 @@ module BRAM_TEST_with_CACHE;
 			#buad_time rx=data[x];
 		end
 		
+		
+		#104160
+		data =10'b 1_11100_000_0; //load R5,r1
+		for(x = 0 ; x<10; x= x + 1) begin
+			#buad_time rx=data[x];
+		end
+		
+		
+		#104160
+		data =10'b 1_0101_0001_0; // r5,r2
+		for(x = 0 ; x<10; x= x + 1) begin
+			#buad_time rx=data[x];
+		end
+		
+		
+		
 		#104160
 		data =10'b 11111_11110; // r1,r2
 		for(x = 0 ; x<10; x= x + 1) begin
