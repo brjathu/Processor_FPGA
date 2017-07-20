@@ -1,0 +1,18 @@
+# Output products list for <uart>
+_xmsgs/pn_parser.xmsgs
+uart.asy
+uart.cdc
+uart.constraints/uart.ucf
+uart.constraints/uart.xdc
+uart.gise
+uart.ngc
+uart.sym
+uart.ucf
+uart.v
+uart.veo
+uart.xco
+uart.xdc
+uart.xise
+uart_flist.txt
+uart_readme.txt
+uart_xmdf.tcl

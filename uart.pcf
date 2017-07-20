@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Feb 16 01:22:47 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "led_test" LOCATE = SITE "N15" LEVEL 1;
+COMP "btn" LOCATE = SITE "M18" LEVEL 1;
+COMP "rx" LOCATE = SITE "U7" LEVEL 1;
+COMP "tx" LOCATE = SITE "V7" LEVEL 1;
+COMP "ledrx" LOCATE = SITE "P15" LEVEL 1;
+COMP "ledtx" LOCATE = SITE "P16" LEVEL 1;
+COMP "clk_100" LOCATE = SITE "V10" LEVEL 1;
+NET "clk_100_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

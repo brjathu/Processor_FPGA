@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Jun 28 00:30:33 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "rx" LOCATE = SITE "A16" LEVEL 1;
+COMP "tx" LOCATE = SITE "B16" LEVEL 1;
+COMP "ledInd<0>" LOCATE = SITE "U18" LEVEL 1;
+COMP "ledInd<1>" LOCATE = SITE "M14" LEVEL 1;
+COMP "ledInd<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "clk_100" LOCATE = SITE "L15" LEVEL 1;
+COMP "led_pro" LOCATE = SITE "P16" LEVEL 1;
+COMP "ctrlSw<0>" LOCATE = SITE "A10" LEVEL 1;
+COMP "ctrlSw<1>" LOCATE = SITE "D14" LEVEL 1;
+COMP "ctrlSw<2>" LOCATE = SITE "C14" LEVEL 1;
+COMP "led_rx" LOCATE = SITE "M13" LEVEL 1;
+COMP "led_tx" LOCATE = SITE "L14" LEVEL 1;
+NET "clk_100_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

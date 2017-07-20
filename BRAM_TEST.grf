@@ -1,0 +1,756 @@
+Release 14.7 - par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Jun 28 00:30:48 2017
+
+  SmartGuide Results
+  ------------------
+  This section describes the guide results after invoking the Router. This
+  report accurately reflects the differences between the input design
+  and the guide design.
+
+  Number of Components in the input design    |    747
+    Number of guided Components               |    673 out of    747  90.1%
+    Number of re-implemented Components       |     27 out of    747   3.6%
+    Number of new/changed Components          |     47 out of    747   6.3%
+  Number of Nets in the input design          |   2215
+    Number of guided Nets                     |   1574 out of   2215  71.1%
+    Number of partially guided Nets           |    177 out of   2215   8.0%
+    Number of re-routed Nets                  |    382 out of   2215  17.2%
+    Number of new/changed Nets                |     82 out of   2215   3.7%
+
+
+The following Components were re-implemented.
+---------------------------------------------
+ upro/cu/data_out<34> : SLICE_X18Y55.
+ upro/MDR/store<7> : SLICE_X18Y56.
+ N501 : SLICE_X19Y52.
+ memory_addr_pro<6>_MLTSRCEDGE : SLICE_X20Y52.
+ upro/cu/data_out<3> : SLICE_X20Y56.
+ upro/cu/addr_ins[8]_GND_126_o_equal_16_o<8>1 : SLICE_X21Y55.
+ upro/memory_data_out<14> : SLICE_X22Y49.
+ upro/cu/data_out<38> : SLICE_X22Y54.
+ upro/R3/store<11> : SLICE_X22Y57.
+ memory_addr_pro<3>_MLTSRCEDGE : SLICE_X23Y52.
+ upro/MDR/store[15]_memory_bus_in[15]_mux_4_OUT<2> : SLICE_X24Y51.
+ upro/MAR/store<11> : SLICE_X24Y53.
+ upro/MDR/store<11> : SLICE_X25Y51.
+ upro/PC/store<11> : SLICE_X25Y53.
+ test_ins_7_OBUF : SLICE_X25Y54.
+ upro/R2/store<11> : SLICE_X25Y55.
+ upro/cu/addr_ins[8]_clk_DFF_68 : SLICE_X25Y56.
+ upro/R9/store<11> : SLICE_X26Y53.
+ upro/R7/store<11> : SLICE_X27Y54.
+ upro/R10/store<11> : SLICE_X27Y56.
+ upro/cu/addr_ins[8]_GND_126_o_equal_31_o : SLICE_X28Y51.
+ upro/cu/write_loc<4> : SLICE_X29Y58.
+ upro/MAR/store<15> : SLICE_X30Y48.
+ upro/PC/store<15> : SLICE_X31Y48.
+ upro/R7/store<15> : SLICE_X31Y50.
+ upro/R6/store<11> : SLICE_X38Y68.
+ upro/alu/b_bus[15]_GND_90_o_add_11_OUT<1> : SLICE_X40Y54.
+
+
+The following Components are new/changed.
+-----------------------------------------
+ N132 : SLICE_X16Y53.
+ N341 : SLICE_X16Y54.
+ test_ins_3_OBUF : SLICE_X16Y55.
+ upro/cu/addr_ins[8]_GND_126_o_equal_12_o : SLICE_X17Y54.
+ N108 : SLICE_X18Y52.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<1>3 : SLICE_X18Y53.
+ upro/MDR/_n0050_inv : SLICE_X18Y54.
+ upro/cu/addr_ins[8]_GND_126_o_equal_42_o : SLICE_X19Y53.
+ upro/cu/addr_ins[8]_GND_126_o_equal_24_o : SLICE_X19Y54.
+ upro/cu/addr_ins[8]_GND_126_o_equal_21_o : SLICE_X19Y55.
+ upro/cu/addr_ins[8]_PWR_61_o_equal_43_o : SLICE_X19Y56.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<3>1 : SLICE_X20Y53.
+ upro/cu/data_out<31> : SLICE_X20Y54.
+ memory_addr_pro<4>_MLTSRCEDGE : SLICE_X21Y52.
+ N101 : SLICE_X21Y53.
+ N123 : SLICE_X21Y54.
+ upro/cu/_n0152 : SLICE_X21Y56.
+ upro/cu/out24 : SLICE_X22Y50.
+ N74 : SLICE_X22Y52.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<1>1 : SLICE_X22Y53.
+ upro/cu/data_out<22> : SLICE_X22Y55.
+ upro/cu/data_out<6> : SLICE_X22Y56.
+ upro/memory_data_out<9> : SLICE_X23Y48.
+ upro/memory_data_out<15> : SLICE_X23Y49.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<4>1 : SLICE_X23Y54.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<12>2 : SLICE_X23Y55.
+ upro/cu/data_out<14> : SLICE_X23Y58.
+ upro/cu/addr_ins[8]_GND_126_o_equal_53_o : SLICE_X24Y52.
+ upro/IR/_n0050_inv : SLICE_X25Y52.
+ upro/cu/addr_ins[8]_GND_126_o_equal_13_o<8>1 : SLICE_X26Y51.
+ upro/cu/out42 : SLICE_X26Y52.
+ upro/cu/data_out<37> : SLICE_X26Y56.
+ upro/cu/out41 : SLICE_X27Y51.
+ N76 : SLICE_X27Y52.
+ N105 : SLICE_X27Y53.
+ upro/cu/data_out<25> : SLICE_X27Y57.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<12>1 : SLICE_X28Y54.
+ upro/cu/data_out<10> : SLICE_X28Y61.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<5>2 : SLICE_X29Y51.
+ N521 : SLICE_X29Y52.
+ N361 : SLICE_X29Y53.
+ upro/alu/ctrl[4]_ctrl[4]_DLATCH_14_q : SLICE_X29Y54.
+ upro/cu/data_out<27> : SLICE_X30Y55.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_b.bindec_inst_b/Mmux_ENOUT<10>11 :
+SLICE_X30Y62.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<14>2 : SLICE_X33Y54.
+ io/uutrx/RxD_data<7> : SLICE_X34Y48.
+ io/data_out_io[15]_data_out[7]_mux_24_OUT<3> : SLICE_X41Y56.
+
+
+The following Nets were re-routed.
+----------------------------------
+ upro/cu/data_out<2>.
+ upro/MDR/store<10>.
+ upro/MDR/store<11>.
+ upro/cu/data_out<1>.
+ upro/cu/data_out<0>.
+ upro/IR/store<7>.
+ upro/cu/write_loc<13>.
+ upro/cu/write_loc<4>.
+ N261.
+ N51.
+ upro/alu/Mmux_ctrl[4]_X_96_o_Mux_31_o_9.
+ upro/cu/data_out<23>.
+ upro/alu/GND_90_o_b_bus[15]_add_1_OUT<10>_bdd0.
+ upro/cu/data_out<24>.
+ upro/alu/b_bus[15]_GND_90_o_add_11_OUT<1>.
+ upro/cu/data_out<5>.
+ upro/cu/data_out<3>.
+ upro/cu/data_out<6>.
+ upro/cu/data_out<4>.
+ upro/cu/addr_ins[8]_GND_126_o_equal_30_o<8>1.
+ upro/cu/data_out<37>.
+ upro/cu/data_out<30>.
+ upro/cu/data_out<34>.
+ upro/cu/data_out<31>.
+ upro/m8/Mmux_mux_out41.
+ upro/MDR/store<5>.
+ upro/alu/Mmux_ctrl[4]_X_96_o_Mux_31_o_11.
+ upro/alu/acc[15]_GND_90_o_add_9_OUT<12>.
+ upro/alu/GND_90_o_GND_90_o_sub_11_OUT<12>.
+ upro/alu/n0079<12>.
+ upro/alu/acc[15]_GND_90_o_add_9_OUT<11>.
+ upro/alu/n0079<11>.
+ N381.
+ upro/alu/out[15]_reduce_or_1_o.
+ upro/cu/data_out<28>.
+ upro/m8/Mmux_mux_out711.
+ upro/alu/Mmux_ctrl[4]_X_104_o_Mux_47_o_9.
+ memory_addr_pro<7>_MLTSRCEDGE.
+ upro/PC/store<7>.
+ N59.
+ upro/cu/data_out<38>.
+ upro/cu/data_out<36>.
+ upro/cu/data_out<35>.
+ upro/alu/Mmux_ctrl[4]_out[15]_Mux_19_o_10.
+ upro/alu/acc[15]_GND_90_o_add_9_OUT<15>.
+ upro/alu/GND_90_o_GND_90_o_sub_11_OUT<15>.
+ upro/alu/n0079<15>.
+ upro/alu/Mmux_ctrl[4]_out[15]_Mux_19_o_9.
+ upro/alu/acc[15]_unary_minus_3_OUT<15>.
+ N26.
+ upro/alu/ctrl[4]_ctrl[4]_DLATCH_14_q.
+ N25.
+ upro/MDR/store<6>.
+ upro/cu/out5.
+ upro/cu/addr_ins[8]_GND_126_o_equal_47_o.
+ upro/cu/out3.
+ upro/cu/addr_ins[8]_GND_126_o_equal_53_o.
+ test_ins_7_OBUF.
+ upro/cu/addr_ins[8]_GND_126_o_equal_35_o<8>1.
+ upro/cu/addr_ins[8]_GND_126_o_equal_20_o.
+ memory_addr_pro<2>_MLTSRCEDGE.
+ upro/PC/store<2>.
+ N64.
+ upro/alu/Mmux_ctrl[4]_X_92_o_Mux_23_o_9.
+ upro/MAR/store<10>.
+ upro/PC/store<10>.
+ upro/alu/Mmux_ctrl[4]_X_94_o_Mux_27_o_11.
+ upro/MDR/store[15]_memory_bus_in[15]_mux_4_OUT<11>.
+ upro/alu/ctrl[4]_ctrl[4]_DLATCH_8_q.
+ upro/IR/_n0050_inv.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<4>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.ram_doutb.
+ upro/MDR/store<13>.
+ upro/MDR/_n0050_inv.
+ upro/IR/store[15]_memory_bus_in[15]_mux_4_OUT<14>.
+ upro/MDR/store<14>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.ram_doutb.
+ upro/cu/write_loc<3>.
+ upro/cu/write_loc<2>.
+ io/addr_io[15]_addr_io[15]_mux_66_OUT<3>.
+ io/GND_4_o_GND_4_o_sub_46_OUT<10>.
+ io/addr_io[15]_GND_4_o_add_11_OUT<10>.
+ io/GND_4_o_GND_4_o_sub_46_OUT<3>.
+ io/addr_io[15]_GND_4_o_add_11_OUT<3>.
+ io/addr_io[15]_addr_io[15]_mux_66_OUT<10>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.ram_doutb.
+ upro/MDR/store[15]_memory_bus_in[15]_mux_4_OUT<4>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.ram_doutb.
+ upro/MDR/store[15]_memory_bus_in[15]_mux_4_OUT<5>.
+ N21.
+ upro/cu/data_out<11>.
+ upro/R4/store<14>.
+ upro/alu/out11.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.ram_doutb.
+ upro/MDR/store[15]_memory_bus_in[15]_mux_4_OUT<6>.
+ N114.
+ upro/m8/Mmux_mux_out811.
+ upro/MDR/store[15]_memory_bus_in[15]_mux_4_OUT<7>.
+ upro/cu/data_out<26>.
+ upro/cu/data_out<25>.
+ io/data_out_io[15]_data_out[7]_mux_24_OUT<1>.
+ io/data_out_io[15]_data_out[7]_mux_24_OUT<3>.
+ upro/cu/addr_ins[8]_GND_126_o_equal_12_o<8>2.
+ test_ins_6_OBUF.
+ test_ins_3_OBUF.
+ test_ins_0_OBUF.
+ upro/cu/out.
+ upro/m8/Mmux_mux_out411.
+ upro/cu/addr_ins[8]_GND_126_o_equal_33_o<8>1.
+ upro/MDR/store[15]_memory_bus_in[15]_mux_4_OUT<9>.
+ upro/MDR/store[15]_memory_bus_in[15]_mux_4_OUT<10>.
+ upro/cu/data_out<13>.
+ ena.
+ memory_addr_pro<15>_MLTSRCEDGE.
+ upro/MAR/store<15>.
+ upro/PC/store<15>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/enb_array<9>.
+ N58.
+ N60.
+ N62.
+ N63.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_b.bindec_inst_b/Mmux_ENOUT<0>11.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/Mmux_ENOUT<0>11.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_b.bindec_inst_b/Mmux_ENOUT<10>11.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_b.bindec_inst_b/Mmux_ENOUT<16>11.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/Mmux_ENOUT<24>11.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.ram_doutb.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.ram_doutb.
+ N44.
+ N46.
+ N39.
+ N45.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/enb_array<1>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/enb_array<2>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ena_array<2>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/enb_array<6>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/enb_array<11>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/enb_array<15>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ena_array<17>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ena_array<20>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/enb_array<21>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/enb_array<25>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/enb_array<26>.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[54].ram.ram_doutb<6>.
+ upro/cu/addr_ins[8]_clk_DFF_68.
+ upro/R10/store<11>.
+ upro/R9/store<11>.
+ upro/R7/store<11>.
+ upro/R6/store<11>.
+ upro/R5/store<11>.
+ upro/R3/store<11>.
+ upro/R2/store<11>.
+ upro/MAR/store<11>.
+ upro/PC/store<11>.
+ upro/alu/acc[15]_b_bus[15]_add_6_OUT<1>.
+ upro/alu/acc[15]_b_bus[15]_add_6_OUT<2>.
+ upro/alu/acc[15]_b_bus[15]_add_6_OUT<4>.
+ upro/alu/acc[15]_b_bus[15]_add_6_OUT<9>.
+ upro/alu/acc[15]_b_bus[15]_add_6_OUT<11>.
+ upro/R10/store<8>.
+ upro/R9/store<8>.
+ upro/R8/store<8>.
+ upro/R7/store<8>.
+ upro/R6/store<8>.
+ upro/R3/store<8>.
+ upro/R2/store<8>.
+ upro/MAR/store<8>.
+ upro/MDR/store<8>.
+ upro/PC/store<8>.
+ upro/alu/acc[15]_GND_90_o_add_9_OUT<1>.
+ upro/R10/store<12>.
+ upro/R9/store<12>.
+ upro/R7/store<12>.
+ upro/R5/store<12>.
+ upro/R3/store<12>.
+ upro/R1/store<12>.
+ upro/MAR/store<12>.
+ upro/PC/store<12>.
+ upro/R10/store<9>.
+ upro/R9/store<9>.
+ upro/R7/store<9>.
+ upro/R6/store<9>.
+ upro/R3/store<9>.
+ upro/R2/store<9>.
+ upro/MAR/store<9>.
+ upro/MDR/store<9>.
+ upro/PC/store<9>.
+ upro/alu/GND_90_o_GND_90_o_sub_11_OUT<0>.
+ upro/R9/store<13>.
+ upro/R7/store<13>.
+ upro/R5/store<13>.
+ upro/MAR/store<13>.
+ upro/PC/store<13>.
+ upro/R10/store<14>.
+ upro/R7/store<14>.
+ upro/R3/store<14>.
+ upro/R2/store<14>.
+ upro/MAR/store<14>.
+ upro/PC/store<14>.
+ upro/alu/acc[15]_unary_minus_3_OUT<0>.
+ upro/alu/acc[15]_unary_minus_3_OUT<7>.
+ upro/alu/acc[15]_unary_minus_3_OUT<8>.
+ upro/alu/acc[15]_unary_minus_3_OUT<9>.
+ upro/alu/acc[15]_unary_minus_3_OUT<10>.
+ upro/alu/acc[15]_unary_minus_3_OUT<11>.
+ upro/alu/acc[15]_unary_minus_3_OUT<14>.
+ upro/R10/store<15>.
+ upro/R8/store<15>.
+ upro/R7/store<15>.
+ upro/alu/b_bus[15]_acc[15]_sub_8_OUT<11>.
+ upro/alu/b_bus[15]_acc[15]_sub_8_OUT<13>.
+ upro/alu/b_bus[15]_acc[15]_sub_8_OUT<15>.
+ upro/cu/data_out<17>.
+ upro/cu/data_out<9>.
+ upro/IR/store<2>.
+ upro/MDR/store<7>.
+ upro/R1/store<0>.
+ upro/R1/store<4>.
+ upro/MAR/store<4>.
+ upro/MDR/store<4>.
+ upro/R2/store<5>.
+ upro/R10/store<10>.
+ upro/R9/store<10>.
+ upro/R8/store<10>.
+ upro/R7/store<10>.
+ upro/R6/store<10>.
+ upro/R5/store<10>.
+ upro/R4/store<10>.
+ upro/R3/store<10>.
+ upro/R2/store<10>.
+ z_OBUF.
+ memory_data_in_pro_2_OBUF.
+ memory_addr_pro<3>_MLTSRCEDGE.
+ memory_addr_pro<4>_MLTSRCEDGE.
+ memory_addr_pro<6>_MLTSRCEDGE.
+ memory_addr_pro<8>_MLTSRCEDGE.
+ test_ins_1_OBUF.
+ test_ins_2_OBUF.
+ test_ins_4_OBUF.
+ test_ins_5_OBUF.
+ test_ins_8_OBUF.
+ memory_addr_pro<14>_MLTSRCEDGE.
+ upro/memory_data_out<13>.
+ upro/memory_data_out<14>.
+ upro/memory_data_out<15>.
+ upro/memory_data_out<8>.
+ upro/memory_data_out<9>.
+ upro/alu/ctrl[4]_X_104_o_Mux_47_o.
+ upro/alu/Mmux_ctrl[4]_X_104_o_Mux_47_o_6_f7.
+ upro/alu/GND_90_o_GND_90_o_sub_13_OUT<11>.
+ upro/alu/Mmux_ctrl[4]_X_120_o_Mux_79_o_6_f7.
+ upro/alu/n0079<2>.
+ N14.
+ upro/alu/Mmux_ctrl[4]_X_92_o_Mux_23_o_6_f7.
+ upro/Sh1461.
+ upro/alu/GND_90_o_GND_90_o_sub_13_OUT<13>.
+ upro/Sh1451.
+ upro/alu/Mmux_ctrl[4]_X_102_o_Mux_43_o_6_f7.
+ upro/cu/data_out<10>.
+ upro/cu/data_out<16>.
+ upro/cu/data_out<15>.
+ upro/cu/data_out<12>.
+ upro/cu/data_out<21>.
+ upro/cu/data_out<14>.
+ N128.
+ upro/cu/data_out<32>.
+ upro/cu/addr_ins[8]_GND_126_o_equal_48_o.
+ N24.
+ N23.
+ upro/cu/data_out<19>.
+ upro/cu/data_out<22>.
+ upro/alu/Mmux_ctrl[4]_X_108_o_Mux_55_o43.
+ upro/alu/Mmux_ctrl[4]_X_114_o_Mux_67_o41.
+ io/uutrx/RxD_data<7>.
+ io/uutrx/RxD_data<6>.
+ io/uutrx/RxD_data<5>.
+ io/uutrx/RxD_data<4>.
+ upro/alu/Mmux_ctrl[4]_X_118_o_Mux_75_o44.
+ upro/cu/data_out<8>.
+ upro/alu/Mmux_ctrl[4]_X_112_o_Mux_63_o4.
+ upro/alu/n0079<1>.
+ N661.
+ io/uuttx/_n0049_inv.
+ upro/alu/Mmux_ctrl[4]_X_108_o_Mux_55_o47.
+ upro/alu/Mmux_ctrl[4]_X_104_o_Mux_47_o_11.
+ upro/alu/Mmux_ctrl[4]_X_106_o_Mux_51_o_10.
+ io/uutrx/RxD_bit.
+ upro/alu/Mmux_ctrl[4]_X_104_o_Mux_47_o_101.
+ upro/alu/Mmux_ctrl[4]_X_110_o_Mux_59_o43.
+ upro/alu/Mmux_ctrl[4]_X_112_o_Mux_63_o410.
+ upro/cu/addr_ins[8]_GND_126_o_equal_44_o<8>1.
+ N461.
+ N401.
+ N481.
+ N421.
+ upro/cu/write_loc<5>.
+ upro/cu/data_out<20>.
+ upro/cu/write_loc<6>.
+ upro/cu/write_loc<14>.
+ upro/cu/write_loc<7>.
+ upro/cu/write_loc<15>.
+ N541.
+ upro/cu/out1.
+ upro/cu/write_loc<8>.
+ upro/cu/out2.
+ upro/cu/write_loc<9>.
+ N501.
+ N88.
+ upro/cu/addr_ins[8]_GND_126_o_equal_22_o.
+ upro/cu/addr_ins[8]_GND_126_o_equal_26_o.
+ N521.
+ upro/cu/write_loc<10>.
+ upro/cu/addr_ins[8]_GND_126_o_equal_42_o.
+ upro/cu/write_loc<11>.
+ upro/cu/data_out<18>.
+ N90.
+ upro/cu/addr_ins[8]_GND_126_o_equal_34_o.
+ N601.
+ upro/cu/write_loc<12>.
+ upro/cu/addr_ins[8]_GND_126_o_equal_36_o.
+ N341.
+ upro/cu/write_loc<1>.
+ N441.
+ N116.
+ upro/cu/out22.
+ upro/cu/out26.
+ N76.
+ N132.
+ upro/m8/Mmux_mux_out11.
+ upro/m8/Mmux_mux_out71.
+ upro/m8/Mmux_mux_out81.
+ upro/cu/addr_ins[8]_GND_126_o_equal_30_o.
+ N120.
+ upro/cu/addr_ins[8]_GND_126_o_equal_31_o.
+ upro/cu/addr_ins[8]_GND_126_o_equal_22_o<8>1.
+ upro/cu/addr_ins[8]_GND_126_o_equal_16_o<8>1.
+ upro/cu/addr_ins[8]_GND_126_o_equal_44_o.
+ upro/cu/addr_ins[8]_addr_ins[8]_OR_119_o.
+ upro/cu/addr_ins[8]_GND_126_o_equal_40_o.
+ upro/cu/addr_ins[8]_GND_126_o_equal_16_o.
+ upro/MDR/store[15]_memory_bus_in[15]_mux_4_OUT<2>.
+ upro/cu/addr_ins[8]_GND_126_o_equal_46_o.
+ upro/cu/addr_ins[8]_GND_126_o_equal_24_o.
+ upro/cu/addr_ins[8]_GND_126_o_equal_12_o.
+ N361.
+ upro/cu/out4.
+ upro/alu/Mmux_ctrl[4]_X_106_o_Mux_51_o_9.
+ N74.
+ upro/cu/out24.
+ upro/cu/out41.
+ upro/alu/Mmux_ctrl[4]_X_104_o_Mux_47_o_10.
+ N70.
+ upro/alu/Mmux_ctrl[4]_X_94_o_Mux_27_o_10.
+ upro/alu/Mmux_ctrl[4]_X_98_o_Mux_35_o_10.
+ N101.
+ N118.
+ N107.
+ upro/cu/addr_ins[8]_GND_126_o_equal_54_o.
+ upro/IR/store[15]_memory_bus_in[15]_mux_4_OUT<8>.
+ N104.
+ N97.
+ upro/alu/_n0136<10>.
+ N12.
+ N16.
+ upro/alu/_n0136<13>.
+ upro/alu/b_bus[15]_unary_minus_4_OUT<8>.
+ upro/alu/_n0136<11>.
+ upro/alu/b_bus[15]_unary_minus_4_OUT<7>.
+ N641.
+ upro/alu/Mmux_ctrl[4]_X_116_o_Mux_71_o45.
+ upro/alu/GND_90_o_GND_90_o_sub_13_OUT<7>.
+
+
+The following Nets are new/changed.
+-----------------------------------
+ upro/cu/addr_ins[8]_PWR_61_o_equal_52_o<8>1.
+ upro/m8/Mmux_mux_out51.
+ upro/cu/out42.
+ upro/cu/addr_ins[8]_GND_126_o_equal_55_o.
+ N130.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<12>3.
+ upro/cu/addr_ins[8]_GND_126_o_equal_21_o.
+ upro/cu/addr_ins[8]_GND_126_o_equal_53_o<8>1.
+ upro/m8/Mmux_mux_out111.
+ upro/MDR/store[15]_memory_bus_in[15]_mux_4_OUT<8>.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<27>.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<26>.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<25>.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<24>.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<23>.
+ N141.
+ upro/cu/addr_ins[8]_GND_126_o_equal_12_o<8>21.
+ upro/cu/addr_ins[8]_GND_126_o_equal_29_o.
+ upro/cu/data_out<33>.
+ N143.
+ N621.
+ upro/cu/out51.
+ upro/cu/addr_ins[8]_GND_126_o_equal_46_o<8>2.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<33>1.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<33>2.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<18>1.
+ upro/cu/n0052.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<17>1.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<8>1.
+ N87.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<16>1.
+ N135.
+ N134.
+ N91.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<13>3.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<5>2.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<5>1.
+ upro/cu/addr_ins[8]_GND_126_o_equal_38_o.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<3>1.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<2>2.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<1>3.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<16>2.
+ upro/cu/addr_ins[8]_PWR_61_o_equal_52_o.
+ upro/cu/addr_ins[8]_GND_126_o_equal_13_o<8>1.
+ upro/cu/addr_ins[8]_GND_126_o_equal_50_o.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<33>11.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<33>12.
+ N581.
+ upro/cu/_n0183.
+ upro/cu/_n0152.
+ N139.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<12>1.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<12>2.
+ upro/cu/addr_ins[8]_GND_126_o_equal_12_o<8>1.
+ N121.
+ N78.
+ upro/cu/addr_ins[8]_GND_126_o_equal_22_o<8>2.
+ N102.
+ upro/cu/addr_ins[8]_GND_126_o_equal_46_o<8>1.
+ upro/cu/addr_ins[8]_PWR_61_o_equal_43_o.
+ upro/cu/addr_ins[8]_GND_126_o_equal_28_o.
+ upro/cu/addr_ins[8]_GND_126_o_equal_25_o.
+ N112.
+ upro/cu/addr_ins[8]_GND_126_o_equal_49_o.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<14>1.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<14>2.
+ N85.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<4>2.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<1>1.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<1>2.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<2>1.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<4>1.
+ N105.
+ N108.
+ upro/cu/out25.
+ N125.
+ N127.
+ N123.
+ N81.
+ N80.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<13>1.
+ upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<16>3.
+
+
+The following Nets were partially guided.
+-----------------------------------------
+ N43.
+ N41.
+ upro/MAR/store<1>.
+ upro/PC/store<1>.
+ N65.
+ io/Mmux_addr_io[15]_addr_io[15]_mux_66_OUT101.
+ io/state<2>.
+ io/state<1>.
+ io/uutrx/RxD_data_ready.
+ io/state<0>.
+ ledInd_2_OBUF.
+ ledInd_0_OBUF.
+ pro_clk_OBUF_BUFG.
+ upro/IR/store<4>.
+ upro/IR/store<5>.
+ upro/IR/store<6>.
+ upro/ACC/store<0>.
+ upro/ACC/store<1>.
+ upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<10>.
+ upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<8>.
+ upro/ACC/store<3>.
+ upro/ACC/store<11>.
+ upro/ACC/store<2>.
+ upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<9>.
+ upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<11>.
+ N55.
+ N54.
+ ledInd_1_OBUF.
+ N53.
+ N52.
+ upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<13>.
+ upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<12>.
+ upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_cy<7>.
+ upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<1>.
+ upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_cy<0>.
+ upro/R7/read_en_inv.
+ upro/R6/read_en_inv.
+ upro/R8/read_en_inv.
+ upro/R9/read_en_inv.
+ upro/IR/store<14>.
+ upro/IR/store<8>.
+ upro/IR/store<11>.
+ upro/alu/ctrl[4]_ctrl[4]_DLATCH_24_q.
+ upro/alu/ctrl[4]_ctrl[4]_DLATCH_3_q.
+ upro/alu/ctrl[4]_ctrl[4]_DLATCH_26_q.
+ io/uutrx/RxD_state_FSM_FFd3-In21.
+ io/uutrx/tickgen/Acc<15>.
+ io/uuttx/TxD_state_FSM_FFd3.
+ io/uuttx/TxD_state_FSM_FFd2.
+ io/uuttx/TxD_state_FSM_FFd1.
+ cd10/clk_s_BUFG.
+ upro/MAR/store<7>.
+ upro/IR/store<13>.
+ upro/IR/store<12>.
+ upro/IR/store<15>.
+ sw1.
+ upro/ACC/store<15>.
+ upro/alu/Msub_b_bus[15]_unary_minus_4_OUT_cy<13>.
+ upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<14>.
+ upro/alu/ctrl[4]_ctrl[4]_DLATCH_12_q.
+ upro/Sh137.
+ upro/Sh141.
+ upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<6>.
+ upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<5>.
+ upro/MAR/store<2>.
+ upro/R3/read_en_inv.
+ upro/R2/read_en_inv.
+ upro/MDR/store<12>.
+ N42.
+ N56.
+ N66.
+ upro/alu/_n0134<0>.
+ memory_data_in_pro_11_OBUF.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<3>.
+ upro/alu/ctrl[4]_ctrl[4]_DLATCH_30_q.
+ upro/IR/store<0>.
+ upro/alu/ctrl[4]_ctrl[4]_DLATCH_4_q.
+ io/addr_io<0>.
+ upro/MDR/store<15>.
+ upro/IR/store<3>.
+ upro/MAR/read_en_inv.
+ upro/MDR/read_en_inv.
+ io/uutrx/Mcount_OversamplingCnt_xor<3>12.
+ upro/IR/store<1>.
+ upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<4>.
+ upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<2>.
+ upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<3>.
+ N61.
+ N22.
+ N20.
+ upro/alu/out_15.
+ upro/alu/out12.
+ N29.
+ upro/alu/ctrl[4]_ctrl[4]_DLATCH_16_q.
+ memory_data_in_pro_7_OBUF.
+ io/addr_io<2>.
+ io/data_out_io<0>.
+ upro/alu/Msub_GND_90_o_GND_90_o_sub_13_OUT<15:0>_cy<1>.
+ io/data_out_io<1>.
+ io/data_out_io<2>.
+ io/data_out_io<3>.
+ upro/R4/read_en_inv.
+ upro/R5/read_en_inv.
+ memory_data_in_pro_8_OBUF.
+ upro/alu/Mmux_ctrl[4]_X_108_o_Mux_55_o23.
+ upro/alu/Mmux_ctrl[4]_X_108_o_Mux_55_o25.
+ upro/alu/Msub_GND_90_o_GND_90_o_sub_13_OUT<15:0>_cy<3>.
+ upro/ACC/store<4>.
+ upro/IR/store<9>.
+ upro/alu/ctrl[4]_ctrl[4]_DLATCH_10_q.
+ upro/IR/store<10>.
+ upro/R6/store<12>.
+ upro/R6/store<15>.
+ io/addr_io<14>.
+ io/addr_io<12>.
+ io/addr_io<15>.
+ io/addr_io<11>.
+ io/addr_io<13>.
+ io/uutrx/RxD_state_FSM_FFd3.
+ io/we_io.
+ io/addr_io<10>.
+ io/addr_io<9>.
+ io/addr_io<8>.
+ io/addr_io<7>.
+ io/addr_io<6>.
+ io/addr_io<5>.
+ io/addr_io<4>.
+ io/addr_io<3>.
+ io/addr_io<1>.
+ N57.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_b.bindec_inst_b/Mmux_ENOUT<24>11.
+ N32.
+ N37.
+ N38.
+ io/data_out_io<14>.
+ io/data_out_io<12>.
+ io/data_out_io<10>.
+ io/data_out_io<8>.
+ io/data_out_io<7>.
+ upro/R1/read_en_inv.
+ upro/IR/read_en_inv.
+ upro/ACC/store<5>.
+ upro/ACC/store<6>.
+ upro/ACC/store<8>.
+ upro/ACC/store<9>.
+ upro/ACC/store<10>.
+ upro/ACC/store<13>.
+ upro/ACC/store<14>.
+ upro/MAR/store<3>.
+ upro/PC/store<3>.
+ upro/PC/store<4>.
+ upro/MAR/store<6>.
+ upro/PC/store<6>.
+ io/send.
+ upro/alu/ctrl[4]_X_98_o_Mux_35_o.
+ upro/alu/Msub_GND_90_o_GND_90_o_sub_13_OUT<15:0>_cy<4>.
+ upro/alu/_n0135.
+ upro/Sh1471.
+ upro/alu/Msub_GND_90_o_GND_90_o_sub_13_OUT<15:0>_cy<2>.
+ upro/Sh163.
+ upro/alu/Mmux_ctrl[4]_X_114_o_Mux_67_o444.
+ bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>.
+ upro/cu/data_out<27>.
+ upro/Sh162.
+ upro/Sh166.
+ upro/alu/Msub_GND_90_o_GND_90_o_sub_13_OUT<15:0>_cy<13>.
+ upro/alu/Mmux_ctrl[4]_X_108_o_Mux_55_o21.
+ upro/Sh161.
+ N28.
+ N27.
+ io/uutrx/RxD_data<1>.
+ io/uutrx/RxD_data<3>.
+ upro/alu/Mmux_ctrl[4]_X_108_o_Mux_55_o24.
+ upro/alu/Msub_GND_90_o_GND_90_o_sub_13_OUT<15:0>_cy<5>.
+ upro/alu/Msub_b_bus[15]_unary_minus_4_OUT_cy<4>.
+ upro/alu/Msub_b_bus[15]_unary_minus_4_OUT_cy<9>.
+ io/uuttx/tickgen/Acc<15>.

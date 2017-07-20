@@ -1,0 +1,11 @@
+ISim log file
+Running: /home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/cache_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/cache_test_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 200 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# exit 0

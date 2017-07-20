@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="processor_final_version4-uart_ledsignals_ok" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/BRAM_TEST |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|BRAM_TEST.v/io - io_module</ClosedNode>
+         <ClosedNode>/BRAM_TEST |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|BRAM_TEST.v/io - io_module/uutrx - async_receiver</ClosedNode>
+         <ClosedNode>/BRAM_TEST |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|BRAM_TEST.v/io - io_module/uuttx - async_transmitter</ClosedNode>
+         <ClosedNode>/BRAM_TEST |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|BRAM_TEST.v/upro - u_processor</ClosedNode>
+         <ClosedNode>/uart |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|uart.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uart.ucf (/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/uart.ucf)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000150000000020000000000000000000000000200000064ffffffff000000810000000300000002000001500000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>uart.ucf (/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/uart.ucf)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000137000000010000000100000000000000000000000064ffffffff000000810000000000000001000001370000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000038c000000040101000100000000000000000000000064ffffffff0000008100000000000000040000009500000001000000000000011b0000000100000000000000840000000100000000000001580000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ALU.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000125000000010001000100000000000000000000000064ffffffff000000810000000000000001000001250000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000137000000010000000100000000000000000000000064ffffffff000000810000000000000001000001370000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU_test |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|ALU_test.v</ClosedNode>
+         <ClosedNode>/MemTest |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|MemTest.v</ClosedNode>
+         <ClosedNode>/async_reciver |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|async_reciver.v</ClosedNode>
+         <ClosedNode>/async_test |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|async_test.v</ClosedNode>
+         <ClosedNode>/bram_ttest |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|bram_ttest.v</ClosedNode>
+         <ClosedNode>/bram_ttest |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|bram_ttest.v/uut - BRAM_TEST/io - io_module</ClosedNode>
+         <ClosedNode>/final_test |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|final_test.v</ClosedNode>
+         <ClosedNode>/final_test |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|final_test.v/uut - BRAM_TEST/io - io_module</ClosedNode>
+         <ClosedNode>/final_test |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|final_test.v/uut - BRAM_TEST/upro - u_processor</ClosedNode>
+         <ClosedNode>/io_module_test |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|io_module_test.v</ClosedNode>
+         <ClosedNode>/testClock |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|testClock.v</ClosedNode>
+         <ClosedNode>/testTx |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|testB.v</ClosedNode>
+         <ClosedNode>/test_control_unit |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|test_control_unit.v</ClosedNode>
+         <ClosedNode>/test_cu |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|test_cu.v</ClosedNode>
+         <ClosedNode>/test_io |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|test_io.v</ClosedNode>
+         <ClosedNode>/test_ir |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|test_ir.v</ClosedNode>
+         <ClosedNode>/test_processor |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|test_processor.v</ClosedNode>
+         <ClosedNode>/test_register |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|test_register.v</ClosedNode>
+         <ClosedNode>/textRX |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|rxTest.v</ClosedNode>
+         <ClosedNode>/uart_Test |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|uart_Test.v</ClosedNode>
+         <ClosedNode>/uart_test_tx |home|brjathu|FPGA|processor_final_version4-uart_ledsignals_ok|uart_test_tx.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uart_Test (/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/uart_Test.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000150000000020000000000000000000000000200000064ffffffff000000810000000300000002000001500000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>uart_Test (/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/uart_Test.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000139000000010000000100000000000000000000000064ffffffff000000810000000000000001000001390000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000137000000010000000100000000000000000000000064ffffffff000000810000000000000001000001370000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000137000000010000000100000000000000000000000064ffffffff000000810000000000000001000001370000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001510000012001000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000137000000010000000100000000000000000000000064ffffffff000000810000000000000001000001370000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+</Project>
