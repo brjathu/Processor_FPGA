@@ -73,13 +73,17 @@ output wire 			[15:0] data_in_io;
 output wire 			[15:0] addr_io;
 output wire 			we_io;
 
-//processor buses
+//processor-cache buses
 output wire [15:0] memory_addr_pro;
 output wire [15:0] memory_data_in_pro;
 output wire [15:0] memory_data_out_pro;
 output wire we_pro;
 wire finished;
 
+//cache-memory buses
+wire [15:0] addr_from_cache;
+wire [15:0] data_from_cache;
+wire [15:0] data_to_cache;
 
 //give indicators of which mode the device is at now
 assign      ledInd = ctrlSw;
@@ -132,9 +136,9 @@ bram bram(
   .ena(ena),
   .clkb(pro_clk), // input clkb
   .web(we_pro), // input [0 : 0] web
-  .addrb(memory_addr_pro), // input [15 : 0] addrb
-  .dinb(memory_data_out_pro), // input [15 : 0] dinb
-  .doutb(memory_data_in_pro), // output [15 : 0] doutb
+  .addrb(addr_from_cache), // input [15 : 0] addrb
+  .dinb(data_from_cache), // input [15 : 0] dinb
+  .doutb(data_to_cache), // output [15 : 0] doutb
   .enb(enb)
 );
 
@@ -168,8 +172,17 @@ u_processor upro(
 		.hit(hit)
     );
 
-cache c(
-		.hit(hit)
-		);
+cache(
+		.data_in_from_pro(memory_data_out_pro),
+		.data_in_from_mem(data_to_cache),
+		.data_out_to_pro(memory_data_in_pro),
+		.data_out_to_mem(data_from_cache),
+		.addr_in(memory_addr_pro),
+		.addr_out(addr_from_cache),
+		.hit(hit),
+		.memory_write_en(we_pro),
+		.clk_100(clk_10)
+		
+    );
 
 endmodule

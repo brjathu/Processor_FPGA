@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-07-20T07:46:53</DateModified>
+  <DateModified>2017-07-20T09:37:56</DateModified>
   <ModuleName>BRAM_TEST</ModuleName>
-  <SummaryTimeStamp>2017-06-28T00:30:56</SummaryTimeStamp>
+  <SummaryTimeStamp>2017-07-20T07:49:55</SummaryTimeStamp>
   <SavedFilePath>/home/brjathu/FPGA/Processor_FPGA/iseconfig/BRAM_TEST.xreport</SavedFilePath>
   <ImplementationReportsDirectory>/home/brjathu/FPGA/Processor_FPGA/</ImplementationReportsDirectory>
   <DateInitialized>2017-02-26T12:38:45</DateInitialized>

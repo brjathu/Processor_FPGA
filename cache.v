@@ -19,8 +19,10 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module cache(
-		data_in,
-		data_out,
+		data_in_from_pro,
+		data_in_from_mem,
+		data_out_to_pro,
+		data_out_to_mem,
 		addr_in,
 		addr_out,
 		hit,
@@ -29,8 +31,10 @@ module cache(
 		
     );
 
-input wire [15:0] data_in;
-output reg [15:0] data_out;
+input wire [15:0] data_in_from_pro;
+input wire [15:0] data_in_from_mem;
+output reg [15:0] data_out_to_pro;
+output reg [15:0] data_out_to_mem;
 input wire [15:0] addr_in;
 reg [15:0] addr_in_reg;
 output reg [15:0] addr_out;
@@ -57,33 +61,34 @@ end
 always@(posedge clk_100) begin
 	addr_in_reg <= addr_in;
 	if(memory_write_en == 0)begin
-		
 		if(tag[addr_in_reg[7:2]] == addr_in_reg[15:8]) begin
 			if(addr_in_reg[1:0] == 0) begin
-				data_out <= cache_memory[addr_in_reg[7:2]][15:0];
+				data_out_to_pro <= cache_memory[addr_in_reg[7:2]][15:0];
 			end
 			else if(addr_in_reg[1:0] == 1) begin
-				data_out <= cache_memory[addr_in_reg[7:2]][31:16];
+				data_out_to_pro <= cache_memory[addr_in_reg[7:2]][31:16];
 			end
 			else if(addr_in_reg[1:0] == 2) begin
-				data_out <= cache_memory[addr_in_reg[7:2]][47:32];
+				data_out_to_pro <= cache_memory[addr_in_reg[7:2]][47:32];
 			end
 			else if(addr_in_reg[1:0] == 3) begin
-				data_out <= cache_memory[addr_in_reg[7:2]][63:48];
+				data_out_to_pro <= cache_memory[addr_in_reg[7:2]][63:48];
 			end
 			
-			//hit=1
+			hit <= 1;
+			//make hit=1
 			
 		end
 		else begin
-			//hit=0
+			//make hit=0
+			hit <= 0;
 			if(counter == 0) begin
 				addr_out <= {addr_in[15:2],2'b00};
 				if(counter_mem != 3) begin
 					counter_mem <= counter_mem + 1;
 				end
 				else begin
-					cache_memory[addr_in_reg[7:2]][15:0] <= data_in;
+					cache_memory[addr_in_reg[7:2]][15:0] <= data_in_from_mem;
 					counter_mem <= 0;
 					counter <= 1;
 				end
@@ -96,7 +101,7 @@ always@(posedge clk_100) begin
 					counter_mem <= counter_mem + 1;
 				end
 				else begin
-					cache_memory[addr_in_reg[7:2]][31:16] <= data_in;
+					cache_memory[addr_in_reg[7:2]][31:16] <= data_in_from_mem;
 					counter_mem <= 0;
 					counter <= 2;
 				end
@@ -110,7 +115,7 @@ always@(posedge clk_100) begin
 					counter_mem <= counter_mem + 1;
 				end
 				else begin
-					cache_memory[addr_in_reg[7:2]][47:32] <= data_in;
+					cache_memory[addr_in_reg[7:2]][47:32] <= data_in_from_mem;
 					counter_mem <= 0;
 					counter <= 3;
 				end
@@ -125,9 +130,9 @@ always@(posedge clk_100) begin
 					counter_mem <= counter_mem + 1;
 				end
 				else begin
-					cache_memory[addr_in_reg[7:2]][63:48] <= data_in;
+					cache_memory[addr_in_reg[7:2]][63:48] <= data_in_from_mem;
 					counter_mem <= 0;
-					counter <= 0;
+					counter <= 4;
 					
 					tag[addr_in_reg[7:2]] <= addr_in_reg[15:8];
 				end
@@ -135,7 +140,18 @@ always@(posedge clk_100) begin
 			end
 			
 			
+			else if(counter == 4) begin
+				counter <= 0;
+				tag[addr_in_reg[7:2]] <= addr_in_reg[15:8];
+			end
+			
+			
 		end
+	end
+	else begin
+		data_out_to_mem   <= data_in_from_pro;
+		addr_out 			<= addr_in;
+	
 	end
 
 end

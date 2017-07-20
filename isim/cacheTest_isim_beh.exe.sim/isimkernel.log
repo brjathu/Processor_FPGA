@@ -1,0 +1,10 @@
+Command line:
+   cacheTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  43866
+
+Thu Jul 20 08:54:03 2017
+
+
+ Elaboration Time: 0.08 sec

@@ -80,6 +80,9 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="async_test_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="bram_ttest_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bram_ttest_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cacheTest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="cacheTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="cacheTest_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cache_test_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="cache_test_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="cache_test_isim_beh.wdb"/>
@@ -92,6 +95,7 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
     <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/BRAM_TEST_synthesis.nlf"/>
     <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/BRAM_TEST_synthesis.v"/>
@@ -202,7 +206,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1500517182" xil_pn:in_ck="-8137404008252479804" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1500517182">
+    <transform xil_pn:end_ts="1500521038" xil_pn:in_ck="-1654732644583410811" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1500521038">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -214,7 +218,7 @@
       <outfile xil_pn:name="async_test.v"/>
       <outfile xil_pn:name="bram_ttest.v"/>
       <outfile xil_pn:name="cache.v"/>
-      <outfile xil_pn:name="cache_test.v"/>
+      <outfile xil_pn:name="cacheTest.v"/>
       <outfile xil_pn:name="clock_divider.v"/>
       <outfile xil_pn:name="control_unit.v"/>
       <outfile xil_pn:name="decoder16.v"/>
@@ -241,11 +245,11 @@
       <outfile xil_pn:name="uart_Test.v"/>
       <outfile xil_pn:name="uart_test_tx.v"/>
     </transform>
-    <transform xil_pn:end_ts="1500517038" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7067392301074649302" xil_pn:start_ts="1500517038">
+    <transform xil_pn:end_ts="1500521038" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-125584155858899989" xil_pn:start_ts="1500521038">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1500517038" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8631917428153293544" xil_pn:start_ts="1500517038">
+    <transform xil_pn:end_ts="1500521038" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8683801981444127145" xil_pn:start_ts="1500521038">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -255,7 +259,7 @@
       <outfile xil_pn:name="ipcore_dir/bram.ngc"/>
       <outfile xil_pn:name="ipcore_dir/bram.v"/>
     </transform>
-    <transform xil_pn:end_ts="1500517182" xil_pn:in_ck="3450675362838259033" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1500517182">
+    <transform xil_pn:end_ts="1500521038" xil_pn:in_ck="-2316327200435246022" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1500521038">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -267,7 +271,7 @@
       <outfile xil_pn:name="async_test.v"/>
       <outfile xil_pn:name="bram_ttest.v"/>
       <outfile xil_pn:name="cache.v"/>
-      <outfile xil_pn:name="cache_test.v"/>
+      <outfile xil_pn:name="cacheTest.v"/>
       <outfile xil_pn:name="clock_divider.v"/>
       <outfile xil_pn:name="control_unit.v"/>
       <outfile xil_pn:name="decoder16.v"/>
@@ -295,20 +299,24 @@
       <outfile xil_pn:name="uart_Test.v"/>
       <outfile xil_pn:name="uart_test_tx.v"/>
     </transform>
-    <transform xil_pn:end_ts="1500517185" xil_pn:in_ck="3450675362838259033" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5345205161021453043" xil_pn:start_ts="1500517182">
+    <transform xil_pn:end_ts="1500521040" xil_pn:in_ck="-2316327200435246022" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6915743541202768299" xil_pn:start_ts="1500521038">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="cache_test_beh.prj"/>
-      <outfile xil_pn:name="cache_test_isim_beh.exe"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="cacheTest_beh.prj"/>
+      <outfile xil_pn:name="cacheTest_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1500517185" xil_pn:in_ck="2950564908705018603" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6212272968952493863" xil_pn:start_ts="1500517185">
+    <transform xil_pn:end_ts="1500521040" xil_pn:in_ck="-1768525845876365076" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5575561190506414345" xil_pn:start_ts="1500521040">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="cache_test_isim_beh.wdb"/>
+      <outfile xil_pn:name="cacheTest_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1486452216" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1486452216">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -344,7 +352,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="BRAM_TEST.lso"/>
       <outfile xil_pn:name="BRAM_TEST.ngc"/>
@@ -365,6 +375,7 @@
     <transform xil_pn:end_ts="1500517137" xil_pn:in_ck="-2865518965331404166" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8626139231177606919" xil_pn:start_ts="1500517130">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BRAM_TEST.bld"/>
       <outfile xil_pn:name="BRAM_TEST.ngd"/>
       <outfile xil_pn:name="BRAM_TEST_ngdbuild.xrpt"/>
@@ -374,6 +385,9 @@
     <transform xil_pn:end_ts="1500517157" xil_pn:in_ck="-9136677513674134906" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="4022658499373342513" xil_pn:start_ts="1500517137">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="BRAM_TEST.pcf"/>
       <outfile xil_pn:name="BRAM_TEST_map.map"/>
       <outfile xil_pn:name="BRAM_TEST_map.mrp"/>
@@ -388,6 +402,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BRAM_TEST.grf"/>
       <outfile xil_pn:name="BRAM_TEST.ncd"/>
       <outfile xil_pn:name="BRAM_TEST.pad"/>
@@ -404,6 +419,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BRAM_TEST.bgn"/>
       <outfile xil_pn:name="BRAM_TEST.bit"/>
       <outfile xil_pn:name="BRAM_TEST.drc"/>
@@ -417,6 +433,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
@@ -425,6 +442,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
@@ -432,6 +450,7 @@
     <transform xil_pn:end_ts="1500517176" xil_pn:in_ck="-7342727583248760326" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1500517171">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="BRAM_TEST.twr"/>
       <outfile xil_pn:name="BRAM_TEST.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
@@ -440,6 +459,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
