@@ -172,7 +172,7 @@ u_processor upro(
 		.hit(hit)
     );
 
-cache(
+cache cache(
 		.data_in_from_pro(memory_data_out_pro),
 		.data_in_from_mem(data_to_cache),
 		.data_out_to_pro(memory_data_in_pro),
@@ -181,7 +181,7 @@ cache(
 		.addr_out(addr_from_cache),
 		.hit(hit),
 		.memory_write_en(we_pro),
-		.clk_100(clk_10)
+		.clk_100(pro_clk)
 		
     );
 

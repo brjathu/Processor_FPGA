@@ -52,8 +52,8 @@ reg [2:0] counter_mem;
 initial begin
 	hit= 0;
 	tag[1] = 8'b11110000;
-	tag[2] = 8'b00001111;
-	cache_memory[1] = 64'hffff_ffff_fff0_ffff;
+//	tag[2] = 8'b00001111;
+	cache_memory[0] = 64'hffff_ffff_fff0_ffff;
 	counter = 0;
 	counter_mem = 0;
 end 
@@ -84,10 +84,11 @@ always@(posedge clk_100) begin
 			hit <= 0;
 			if(counter == 0) begin
 				addr_out <= {addr_in[15:2],2'b00};
-				if(counter_mem != 3) begin
+				if(counter_mem != 4) begin
 					counter_mem <= counter_mem + 1;
 				end
 				else begin
+					
 					cache_memory[addr_in_reg[7:2]][15:0] <= data_in_from_mem;
 					counter_mem <= 0;
 					counter <= 1;
@@ -97,7 +98,7 @@ always@(posedge clk_100) begin
 			
 			else if(counter == 1) begin
 				addr_out <= {addr_in[15:2],2'b01};
-				if(counter_mem != 3) begin
+				if(counter_mem != 4) begin
 					counter_mem <= counter_mem + 1;
 				end
 				else begin
@@ -111,7 +112,7 @@ always@(posedge clk_100) begin
 			
 			else if(counter == 2) begin
 				addr_out <= {addr_in[15:2],2'b10};
-				if(counter_mem != 3) begin
+				if(counter_mem != 4) begin
 					counter_mem <= counter_mem + 1;
 				end
 				else begin
@@ -126,15 +127,13 @@ always@(posedge clk_100) begin
 			
 			else if(counter == 3) begin
 				addr_out <= {addr_in[15:2],2'b11};
-				if(counter_mem != 3) begin
+				if(counter_mem != 4) begin
 					counter_mem <= counter_mem + 1;
 				end
 				else begin
 					cache_memory[addr_in_reg[7:2]][63:48] <= data_in_from_mem;
 					counter_mem <= 0;
 					counter <= 4;
-					
-					tag[addr_in_reg[7:2]] <= addr_in_reg[15:8];
 				end
 			
 			end

@@ -114,7 +114,7 @@ ALU alu(		.b_bus(b_bus),
 
 control_unit cu(
 
-			.addr_ins({ (z && control_signals[28]) || (hit && control_signals[1]) , mux8}),
+			.addr_ins({ (z && control_signals[28]) || (hit && (control_signals[1] || control_signals[0])) , mux8}),
 			.operand1(instruction[7:4]),
 			.operand2(instruction[3:0]),
 			.en(en),
@@ -150,12 +150,12 @@ mux8 m8(
 
 //general purpose registers 
 register #(.bit_width(16),.init_val(0)) R0(control_signals[7],1'b0,c_bus,b_bus,clk_100);  
-register #(.bit_width(16),.init_val(0)) R1(control_signals[8],read_signals[1],c_bus,b_bus,clk_100 );
-register #(.bit_width(16),.init_val(2)) R2(control_signals[9],read_signals[2],c_bus,b_bus,clk_100 );
-register #(.bit_width(16),.init_val(3)) R3(control_signals[10],read_signals[3],c_bus,b_bus,clk_100);
+register #(.bit_width(16),.init_val(6)) R1(control_signals[8],read_signals[1],c_bus,b_bus,clk_100 );
+register #(.bit_width(16),.init_val(15)) R2(control_signals[9],read_signals[2],c_bus,b_bus,clk_100 );
+register #(.bit_width(16),.init_val(0)) R3(control_signals[10],read_signals[3],c_bus,b_bus,clk_100);
 register #(.bit_width(16),.init_val(0)) R4(control_signals[11],read_signals[4],c_bus,b_bus,clk_100);
 register #(.bit_width(16),.init_val(0)) R5(control_signals[12],read_signals[5],c_bus,b_bus,clk_100 );
-register #(.bit_width(16),.init_val(11)) R6(control_signals[13],read_signals[6],c_bus,b_bus,clk_100   , tester  );
+register #(.bit_width(16),.init_val(0)) R6(control_signals[13],read_signals[6],c_bus,b_bus,clk_100    , tester );
 register #(.bit_width(16),.init_val(0)) R7(control_signals[14],read_signals[7],c_bus,b_bus,clk_100);
 register #(.bit_width(16),.init_val(0)) R8(control_signals[15],read_signals[8],c_bus,b_bus,clk_100);
 register #(.bit_width(16),.init_val(0)) R9(control_signals[16],read_signals[9],c_bus,b_bus,clk_100);

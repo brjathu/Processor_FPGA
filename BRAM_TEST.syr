@@ -4,15 +4,15 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> 
 Reading design: BRAM_TEST.prj
@@ -143,11 +143,10 @@ Parsing module <BRAM_TEST>.
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 158: Port control_signals is not connected to this instance
-WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 171: Port data_in is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 162: Port control_signals is not connected to this instance
 
 Elaborating module <BRAM_TEST>.
-WARNING:HDLCompiler:413 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 114: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 118: Result of 17-bit expression is truncated to fit in 16-bit target.
 
 Elaborating module <clock_divider(num_clk=5)>.
 WARNING:HDLCompiler:413 - "/home/brjathu/FPGA/Processor_FPGA/clock_divider.v" Line 26: Result of 18-bit expression is truncated to fit in 17-bit target.
@@ -205,11 +204,9 @@ Elaborating module <mux8>.
 
 Elaborating module <register(bit_width=16,init_val=0)>.
 
-Elaborating module <register(bit_width=16,init_val=2)>.
+Elaborating module <register(bit_width=16,init_val=6)>.
 
-Elaborating module <register(bit_width=16,init_val=3)>.
-
-Elaborating module <register(bit_width=16,init_val=11)>.
+Elaborating module <register(bit_width=16,init_val=15)>.
 
 Elaborating module <registerSpecial(bit_width=16)>.
 
@@ -219,14 +216,14 @@ Elaborating module <register(bit_width=16,init_val=20)>.
 WARNING:HDLCompiler:634 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 120: Net <en> does not have a driver.
 WARNING:HDLCompiler:552 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 106: Input port clk_100 is not connected on this instance
 WARNING:HDLCompiler:552 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 115: Input port reset is not connected on this instance
+WARNING:HDLCompiler:604 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 175: Module instantiation should have an instance name
 
 Elaborating module <cache>.
-WARNING:HDLCompiler:413 - "/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 83: Result of 4-bit expression is truncated to fit in 3-bit target.
-WARNING:HDLCompiler:413 - "/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 96: Result of 4-bit expression is truncated to fit in 3-bit target.
-WARNING:HDLCompiler:413 - "/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 110: Result of 4-bit expression is truncated to fit in 3-bit target.
-WARNING:HDLCompiler:413 - "/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 125: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 88: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 101: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 115: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 130: Result of 4-bit expression is truncated to fit in 3-bit target.
 WARNING:HDLCompiler:634 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 81: Net <finished> does not have a driver.
-WARNING:HDLCompiler:552 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 171: Input port data_in[15] is not connected on this instance
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -234,22 +231,16 @@ WARNING:HDLCompiler:552 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 1
 
 Synthesizing Unit <BRAM_TEST>.
     Related source file is "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v".
-WARNING:Xst:2898 - Port 'data_in', unconnected in block instance 'c', is tied to GND.
-WARNING:Xst:2898 - Port 'addr_in', unconnected in block instance 'c', is tied to GND.
-WARNING:Xst:2898 - Port 'memory_write_en', unconnected in block instance 'c', is tied to GND.
-WARNING:Xst:2898 - Port 'clk_100', unconnected in block instance 'c', is tied to GND.
-INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 158: Output port <control_signals> of the instance <upro> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 158: Output port <instruction> of the instance <upro> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 158: Output port <mux8> of the instance <upro> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 158: Output port <b_bus> of the instance <upro> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 158: Output port <acc> of the instance <upro> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 158: Output port <finished> of the instance <upro> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 171: Output port <data_out> of the instance <c> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 171: Output port <addr_out> of the instance <c> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 162: Output port <control_signals> of the instance <upro> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 162: Output port <instruction> of the instance <upro> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 162: Output port <mux8> of the instance <upro> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 162: Output port <b_bus> of the instance <upro> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 162: Output port <acc> of the instance <upro> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" line 162: Output port <finished> of the instance <upro> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <finished> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 16-bit register for signal <counter>.
     Found 1-bit register for signal <led_pro>.
-    Found 16-bit adder for signal <counter[15]_GND_1_o_add_4_OUT> created at line 114.
+    Found 16-bit adder for signal <counter[15]_GND_1_o_add_4_OUT> created at line 118.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  17 D-type flip-flop(s).
@@ -706,7 +697,7 @@ Unit <register_1> synthesized.
 Synthesizing Unit <register_2>.
     Related source file is "/home/brjathu/FPGA/Processor_FPGA/register.v".
         bit_width = 16
-        init_val = 2
+        init_val = 6
     Found 16-bit register for signal <store>.
     Found 1-bit tristate buffer for signal <data_out<15>> created at line 58
     Found 1-bit tristate buffer for signal <data_out<14>> created at line 58
@@ -732,7 +723,7 @@ Unit <register_2> synthesized.
 Synthesizing Unit <register_3>.
     Related source file is "/home/brjathu/FPGA/Processor_FPGA/register.v".
         bit_width = 16
-        init_val = 3
+        init_val = 15
     Found 16-bit register for signal <store>.
     Found 1-bit tristate buffer for signal <data_out<15>> created at line 58
     Found 1-bit tristate buffer for signal <data_out<14>> created at line 58
@@ -754,32 +745,6 @@ Synthesizing Unit <register_3>.
 	inferred  16 D-type flip-flop(s).
 	inferred  16 Tristate(s).
 Unit <register_3> synthesized.
-
-Synthesizing Unit <register_4>.
-    Related source file is "/home/brjathu/FPGA/Processor_FPGA/register.v".
-        bit_width = 16
-        init_val = 11
-    Found 16-bit register for signal <store>.
-    Found 1-bit tristate buffer for signal <data_out<15>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<14>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<13>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<12>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<11>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<10>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<9>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<8>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<7>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<6>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<5>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<4>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<3>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<2>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<1>> created at line 58
-    Found 1-bit tristate buffer for signal <data_out<0>> created at line 58
-    Summary:
-	inferred  16 D-type flip-flop(s).
-	inferred  16 Tristate(s).
-Unit <register_4> synthesized.
 
 Synthesizing Unit <registerSpecial_1>.
     Related source file is "/home/brjathu/FPGA/Processor_FPGA/registerSpecial.v".
@@ -866,7 +831,7 @@ Synthesizing Unit <registerSpecial_2>.
 	inferred  32 Tristate(s).
 Unit <registerSpecial_2> synthesized.
 
-Synthesizing Unit <register_5>.
+Synthesizing Unit <register_4>.
     Related source file is "/home/brjathu/FPGA/Processor_FPGA/register.v".
         bit_width = 16
         init_val = 20
@@ -890,35 +855,40 @@ Synthesizing Unit <register_5>.
     Summary:
 	inferred  16 D-type flip-flop(s).
 	inferred  16 Tristate(s).
-Unit <register_5> synthesized.
+Unit <register_4> synthesized.
 
 Synthesizing Unit <cache>.
     Related source file is "/home/brjathu/FPGA/Processor_FPGA/cache.v".
-WARNING:Xst:2935 - Signal 'hit', unconnected in block 'cache', is tied to its initial value (0).
     Found 64x64-bit single-port RAM <Mram_cache_memory> for signal <cache_memory>.
     Found 64x8-bit single-port RAM <Mram_tag> for signal <tag>.
-    Found 16-bit register for signal <data_out>.
+    Found 16-bit register for signal <data_out_to_pro>.
+    Found 1-bit register for signal <hit>.
     Found 16-bit register for signal <addr_out>.
     Found 3-bit register for signal <counter_mem>.
     Found 3-bit register for signal <counter>.
+    Found 16-bit register for signal <data_out_to_mem>.
+    Found 16-bit register for signal <addr_in_reg>.
     Found finite state machine <FSM_2> for signal <counter>.
     -----------------------------------------------------------------------
-    | States             | 4                                              |
-    | Transitions        | 12                                             |
-    | Inputs             | 2                                              |
+    | States             | 5                                              |
+    | Transitions        | 19                                             |
+    | Inputs             | 3                                              |
     | Outputs            | 5                                              |
-    | Clock              | _n0292<2> (rising_edge)                        |
+    | Clock              | clk_100 (rising_edge)                          |
     | Power Up State     | 000                                            |
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 3-bit adder for signal <counter_mem[2]_GND_296_o_add_81_OUT> created at line 125.
-    WARNING:Xst:2404 -  FFs/Latches <addr_in_reg<15:0>> (without init value) have a constant value of 0 in block <cache>.
+    Found 3-bit adder for signal <counter_mem[2]_GND_279_o_add_81_OUT> created at line 130.
+    Found 16-bit 4-to-1 multiplexer for signal <data_out_to_pro[15]_addr_in_reg[7]_mux_15_OUT> created at line 68.
+    Found 16-bit 4-to-1 multiplexer for signal <_n0333> created at line 98.
+    Found 8-bit comparator equal for signal <addr_in_reg[7]_addr_in_reg[15]_equal_4_o> created at line 64
     Summary:
 	inferred   2 RAM(s).
 	inferred   1 Adder/Subtractor(s).
-	inferred  35 D-type flip-flop(s).
-	inferred  16 Multiplexer(s).
+	inferred  68 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  24 Multiplexer(s).
 	inferred   1 Finite State Machine(s).
 Unit <cache> synthesized.
 
@@ -940,9 +910,9 @@ Macro Statistics
  3-bit adder                                           : 1
  4-bit adder                                           : 2
  7-bit adder                                           : 1
-# Registers                                            : 47
- 1-bit register                                        : 9
- 16-bit register                                       : 26
+# Registers                                            : 50
+ 1-bit register                                        : 10
+ 16-bit register                                       : 28
  17-bit register                                       : 1
  2-bit register                                        : 2
  3-bit register                                        : 1
@@ -953,16 +923,18 @@ Macro Statistics
  8-bit register                                        : 3
 # Latches                                              : 17
  1-bit latch                                           : 17
-# Comparators                                          : 3
+# Comparators                                          : 4
  16-bit comparator greater                             : 3
-# Multiplexers                                         : 83
- 1-bit 2-to-1 multiplexer                              : 24
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 91
+ 1-bit 2-to-1 multiplexer                              : 27
  1-bit 22-to-1 multiplexer                             : 14
  1-bit 23-to-1 multiplexer                             : 1
  1-bit 24-to-1 multiplexer                             : 1
- 16-bit 2-to-1 multiplexer                             : 15
+ 16-bit 2-to-1 multiplexer                             : 16
+ 16-bit 4-to-1 multiplexer                             : 2
  6-bit 2-to-1 multiplexer                              : 18
- 8-bit 2-to-1 multiplexer                              : 10
+ 8-bit 2-to-1 multiplexer                              : 12
 # Logic shifters                                       : 4
  16-bit shifter logical left                           : 1
  16-bit shifter logical right                          : 1
@@ -982,7 +954,6 @@ Macro Statistics
 Reading core <ipcore_dir/bram.ngc>.
 Loading core <bram> for timing and area information for instance <bram>.
 WARNING:Xst:2677 - Node <data_out_29> of sequential type is unconnected in block <cu>.
-WARNING:Xst:2404 -  FFs/Latches <addr_out<15:2>> (without init value) have a constant value of 0 in block <cache>.
 
 Synthesizing (advanced) Unit <BRAM_TEST>.
 The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
@@ -997,29 +968,55 @@ Unit <async_receiver> synthesized (advanced).
 
 Synthesizing (advanced) Unit <cache>.
 The following registers are absorbed into counter <counter_mem>: 1 register on signal <counter_mem>.
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_cache_memory> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3225 - The RAM <Mram_cache_memory> will be implemented as BLOCK RAM
     -----------------------------------------------------------------------
-    | ram_type           | Distributed                         |          |
+    | ram_type           | Block                               |          |
     -----------------------------------------------------------------------
     | Port A                                                              |
     |     aspect ratio   | 64-word x 64-bit                    |          |
-    |     clkA           | connected to internal node          | rise     |
-    |     weA            | connected to signal <VCC>           | high     |
-    |     addrA          | connected to signal <GND>           |          |
-    |     diA            | connected to signal <(_n0273,_n0272,_n0271,_n0270,_n0269,_n0268,_n0267,_n0266)> |          |
-    |     doA            | connected to internal node          |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk_100>       | rise     |
+    |     enA            | connected to internal node          | high     |
+    |     weA<3>         | connected to internal node          | high     |
+    |     weA<2>         | connected to internal node          | high     |
+    |     weA<1>         | connected to internal node          | high     |
+    |     weA<0>         | connected to internal node          | high     |
+    |     addrA          | connected to signal <addr_in_reg<7:2>> |          |
+    |     diA            | connected to signal <(_n0291,_n0290,_n0289,_n0288,_n0287,_n0286,data_in_from_mem)> |          |
     -----------------------------------------------------------------------
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_tag> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    | optimization       | speed                               |          |
     -----------------------------------------------------------------------
-    | ram_type           | Distributed                         |          |
+    | Port B                                                              |
+    |     aspect ratio   | 64-word x 64-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk_100>       | rise     |
+    |     addrB          | connected to signal <addr_in<7:2>>  |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <Mram_tag> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
     -----------------------------------------------------------------------
     | Port A                                                              |
     |     aspect ratio   | 64-word x 8-bit                     |          |
-    |     clkA           | connected to internal node          | rise     |
-    |     weA            | connected to signal <GND_296_o_GND_296_o_MUX_621_o_0> | high     |
-    |     addrA          | connected to signal <GND>           |          |
-    |     diA            | connected to signal <GND>           |          |
-    |     doA            | connected to internal node          |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk_100>       | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <addr_in_reg<7:2>> |          |
+    |     diA            | connected to signal <_n0296>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk_100>       | rise     |
+    |     addrB          | connected to signal <addr_in<7:2>>  |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
     -----------------------------------------------------------------------
 Unit <cache> synthesized (advanced).
 
@@ -1055,8 +1052,8 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 3
  32x2-bit single-port block Read Only RAM              : 1
- 64x64-bit single-port distributed RAM                 : 1
- 64x8-bit single-port distributed RAM                  : 1
+ 64x64-bit dual-port block RAM                         : 1
+ 64x8-bit dual-port block RAM                          : 1
 # Multipliers                                          : 1
  16x16-bit multiplier                                  : 1
 # Adders/Subtractors                                   : 14
@@ -1069,16 +1066,18 @@ Macro Statistics
  3-bit up counter                                      : 1
  4-bit up counter                                      : 2
  7-bit up counter                                      : 1
-# Registers                                            : 450
- Flip-Flops                                            : 450
-# Comparators                                          : 3
+# Registers                                            : 497
+ Flip-Flops                                            : 497
+# Comparators                                          : 4
  16-bit comparator greater                             : 3
-# Multiplexers                                         : 97
- 1-bit 2-to-1 multiplexer                              : 39
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 104
+ 1-bit 2-to-1 multiplexer                              : 43
  1-bit 22-to-1 multiplexer                             : 14
  1-bit 23-to-1 multiplexer                             : 1
  1-bit 24-to-1 multiplexer                             : 1
- 16-bit 2-to-1 multiplexer                             : 14
+ 16-bit 2-to-1 multiplexer                             : 15
+ 16-bit 4-to-1 multiplexer                             : 2
  6-bit 2-to-1 multiplexer                              : 18
  8-bit 2-to-1 multiplexer                              : 10
 # Logic shifters                                       : 4
@@ -1095,24 +1094,6 @@ Macro Statistics
 *                         Low Level Synthesis                           *
 =========================================================================
 WARNING:Xst:1293 - FF/Latch <cu/data_out_29> has a constant value of 0 in block <u_processor>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_15> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_14> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_13> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_12> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_11> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_10> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_9> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_8> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_7> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_6> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_5> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_4> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_3> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_2> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_1> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <data_out_0> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <addr_out_1> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <addr_out_0> (without init value) has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <R0/store_15> of sequential type is unconnected in block <u_processor>.
 WARNING:Xst:2677 - Node <R0/store_14> of sequential type is unconnected in block <u_processor>.
 WARNING:Xst:2677 - Node <R0/store_13> of sequential type is unconnected in block <u_processor>.
@@ -1165,63 +1146,16 @@ Optimizing FSM <io/uuttx/FSM_1> on signal <TxD_state[1:4]> with user encoding.
  0010  | 0010
 -------------------
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <c/FSM_2> on signal <counter[1:2]> with sequential encoding.
+Optimizing FSM <_i000009/FSM_2> on signal <counter[1:3]> with user encoding.
 -------------------
  State | Encoding
 -------------------
- 000   | 00
- 001   | 01
- 010   | 10
- 011   | 11
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 011   | 011
+ 100   | 100
 -------------------
-WARNING:Xst:2677 - Node <Mram_cache_memory17> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory18> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory19> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory22> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory20> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory21> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory25> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory23> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory24> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory28> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory26> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory27> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory31> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory29> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory30> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory32> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory51> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory49> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory50> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory52> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory53> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory56> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory54> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory55> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory59> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory57> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory58> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory62> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory60> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory61> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory63> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory64> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory34> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory33> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory37> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory35> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory36> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory40> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory38> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory39> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory41> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory42> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory45> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory43> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory44> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory48> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory46> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_cache_memory47> of sequential type is unconnected in block <cache>.
 WARNING:Xst:1293 - FF/Latch <state_3> has a constant value of 0 in block <io_module>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <state_4> has a constant value of 0 in block <io_module>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <state_5> has a constant value of 0 in block <io_module>. This FF/Latch will be trimmed during the optimization process.
@@ -1236,35 +1170,6 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cu/immediate_12> (w
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cu/immediate_13> (without init value) has a constant value of 0 in block <u_processor>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cu/immediate_14> (without init value) has a constant value of 0 in block <u_processor>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cu/immediate_15> (without init value) has a constant value of 0 in block <u_processor>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <counter_FSM_FFd2> has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <counter_FSM_FFd1> has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <counter_mem_0> has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <counter_mem_1> has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <counter_mem_2> has a constant value of 0 in block <cache>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<9> and _n0267<9> _n0267<9> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<8> and _n0267<8> _n0267<8> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<15> and _n0267<15> _n0267<15> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<14> and _n0267<14> _n0267<14> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<13> and _n0267<13> _n0267<13> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<12> and _n0267<12> _n0267<12> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<11> and _n0267<11> _n0267<11> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<10> and _n0267<10> _n0267<10> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<7> and _n0266<7> _n0266<7> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<6> and _n0266<6> _n0266<6> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<5> and _n0266<5> _n0266<5> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<4> and _n0266<4> _n0266<4> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<3> and _n0266<3> _n0266<3> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<2> and _n0266<2> _n0266<2> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<1> and _n0266<1> _n0266<1> signal will be lost.
-WARNING:Xst:638 - in unit cache Conflict on KEEP property on signal _n0275<0> and _n0266<0> _n0266<0> signal will be lost.
-WARNING:Xst:2677 - Node <Mram_tag1> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_tag4> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_tag2> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_tag3> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_tag5> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_tag6> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_tag7> of sequential type is unconnected in block <cache>.
-WARNING:Xst:2677 - Node <Mram_tag8> of sequential type is unconnected in block <cache>.
 WARNING:Xst:2677 - Node <upro/cu/write_loc_0> of sequential type is unconnected in block <BRAM_TEST>.
 WARNING:Xst:2677 - Node <upro/cu/data_out_7> of sequential type is unconnected in block <BRAM_TEST>.
 WARNING:Xst:2677 - Node <upro/cu/finished> of sequential type is unconnected in block <BRAM_TEST>.
@@ -1272,13 +1177,12 @@ WARNING:Xst:2042 - Unit BRAM_TEST: 79 internal tristates are replaced by logic (
 WARNING:Xst:2040 - Unit BRAM_TEST: 32 multi-source signals are replaced by logic (pull-up yes): memory_addr_pro<0>_MLTSRCEDGE, memory_addr_pro<10>_MLTSRCEDGE, memory_addr_pro<11>_MLTSRCEDGE, memory_addr_pro<12>_MLTSRCEDGE, memory_addr_pro<13>_MLTSRCEDGE, memory_addr_pro<14>_MLTSRCEDGE, memory_addr_pro<15>_MLTSRCEDGE, memory_addr_pro<1>_MLTSRCEDGE, memory_addr_pro<2>_MLTSRCEDGE, memory_addr_pro<3>_MLTSRCEDGE, memory_addr_pro<4>_MLTSRCEDGE, memory_addr_pro<5>_MLTSRCEDGE, memory_addr_pro<6>_MLTSRCEDGE, memory_addr_pro<7>_MLTSRCEDGE, memory_addr_pro<8>_MLTSRCEDGE, memory_addr_pro<9>_MLTSRCEDGE, upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_cy<7>, upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<10>, upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<11>, upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<12>, upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<13>, upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<14>, upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<15>, upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<8>, upro/alu/Madd_GND_90_o_b_bus[15]_add_1_OUT_lut<9>, upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_cy<0>, upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<1>, upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<2>, upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<3>, upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<4>, upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<5>, upro/alu/Madd_b_bus[15]_GND_90_o_add_11_OUT_lut<6>.
 WARNING:Xst:2042 - Unit registerSpecial_2: 32 internal tristates are replaced by logic (pull-up yes): data_out<0>, data_out<10>, data_out<11>, data_out<12>, data_out<13>, data_out<14>, data_out<15>, data_out<1>, data_out<2>, data_out<3>, data_out<4>, data_out<5>, data_out<6>, data_out<7>, data_out<8>, data_out<9>, memory_bus_out<0>, memory_bus_out<10>, memory_bus_out<11>, memory_bus_out<12>, memory_bus_out<13>, memory_bus_out<14>, memory_bus_out<15>, memory_bus_out<1>, memory_bus_out<2>, memory_bus_out<3>, memory_bus_out<4>, memory_bus_out<5>, memory_bus_out<6>, memory_bus_out<7>, memory_bus_out<8>, memory_bus_out<9>.
 WARNING:Xst:2042 - Unit registerSpecial_1: 32 internal tristates are replaced by logic (pull-up yes): data_out<0>, data_out<10>, data_out<11>, data_out<12>, data_out<13>, data_out<14>, data_out<15>, data_out<1>, data_out<2>, data_out<3>, data_out<4>, data_out<5>, data_out<6>, data_out<7>, data_out<8>, data_out<9>, memory_bus_out<0>, memory_bus_out<10>, memory_bus_out<11>, memory_bus_out<12>, memory_bus_out<13>, memory_bus_out<14>, memory_bus_out<15>, memory_bus_out<1>, memory_bus_out<2>, memory_bus_out<3>, memory_bus_out<4>, memory_bus_out<5>, memory_bus_out<6>, memory_bus_out<7>, memory_bus_out<8>, memory_bus_out<9>.
-WARNING:Xst:2042 - Unit register_4: 16 internal tristates are replaced by logic (pull-up yes): data_out<0>, data_out<10>, data_out<11>, data_out<12>, data_out<13>, data_out<14>, data_out<15>, data_out<1>, data_out<2>, data_out<3>, data_out<4>, data_out<5>, data_out<6>, data_out<7>, data_out<8>, data_out<9>.
 WARNING:Xst:2042 - Unit register_3: 16 internal tristates are replaced by logic (pull-up yes): data_out<0>, data_out<10>, data_out<11>, data_out<12>, data_out<13>, data_out<14>, data_out<15>, data_out<1>, data_out<2>, data_out<3>, data_out<4>, data_out<5>, data_out<6>, data_out<7>, data_out<8>, data_out<9>.
 WARNING:Xst:2042 - Unit register_2: 16 internal tristates are replaced by logic (pull-up yes): data_out<0>, data_out<10>, data_out<11>, data_out<12>, data_out<13>, data_out<14>, data_out<15>, data_out<1>, data_out<2>, data_out<3>, data_out<4>, data_out<5>, data_out<6>, data_out<7>, data_out<8>, data_out<9>.
 
 Optimizing unit <BaudTickGen_1> ...
 
-Optimizing unit <register_5> ...
+Optimizing unit <register_4> ...
 
 Optimizing unit <BRAM_TEST> ...
 
@@ -1299,10 +1203,12 @@ WARNING:Xst:1293 - FF/Latch <io/auto_send_12> has a constant value of 0 in block
 WARNING:Xst:1293 - FF/Latch <io/auto_send_11> has a constant value of 0 in block <BRAM_TEST>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <io/auto_send_10> has a constant value of 0 in block <BRAM_TEST>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <io/uutrx/ready_counter_3> has a constant value of 0 in block <BRAM_TEST>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <_i000009/counter_mem_2> has a constant value of 0 in block <BRAM_TEST>. This FF/Latch will be trimmed during the optimization process.
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block BRAM_TEST, actual ratio is 5.
+Found area constraint ratio of 100 (+ 5) on block BRAM_TEST, actual ratio is 6.
+FlipFlop upro/IR/store_11 has been replicated 1 time(s)
 Latch upro/alu/out_15 has been replicated 1 time(s) to handle iob=true attribute.
 Latch upro/alu/ctrl[4]_ctrl[4]_DLATCH_2_q has been replicated 1 time(s) to handle iob=true attribute.
 Latch upro/alu/ctrl[4]_ctrl[4]_DLATCH_4_q has been replicated 1 time(s) to handle iob=true attribute.
@@ -1330,8 +1236,8 @@ Unit <BRAM_TEST> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 462
- Flip-Flops                                            : 462
+# Registers                                            : 533
+ Flip-Flops                                            : 533
 # Shift Registers                                      : 1
  2-bit shift register                                  : 1
 
@@ -1356,30 +1262,29 @@ Top Level Output File Name         : BRAM_TEST.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1896
+# BELS                             : 1978
 #      GND                         : 2
-#      INV                         : 72
+#      INV                         : 74
 #      LUT1                        : 86
-#      LUT2                        : 108
-#      LUT3                        : 108
-#      LUT4                        : 250
-#      LUT5                        : 137
-#      LUT6                        : 602
+#      LUT2                        : 121
+#      LUT3                        : 127
+#      LUT4                        : 241
+#      LUT5                        : 149
+#      LUT6                        : 648
 #      MUXCY                       : 314
-#      MUXF7                       : 34
+#      MUXF7                       : 33
 #      VCC                         : 1
 #      XORCY                       : 182
-# FlipFlops/Latches                : 506
-#      FD                          : 51
+# FlipFlops/Latches                : 577
+#      FD                          : 70
 #      FD_1                        : 61
-#      FDE                         : 322
+#      FDE                         : 372
 #      FDR                         : 20
-#      FDRE                        : 19
+#      FDRE                        : 21
 #      LD                          : 33
-# RAMS                             : 77
-#      RAM64X1S                    : 16
-#      RAMB16BWER                  : 60
-#      RAMB8BWER                   : 1
+# RAMS                             : 64
+#      RAMB16BWER                  : 62
+#      RAMB8BWER                   : 2
 # Shift Registers                  : 1
 #      SRLC16E                     : 1
 # Clock Buffers                    : 3
@@ -1399,19 +1304,18 @@ Selected Device : 6slx45csg324-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             490  out of  54576     0%  
- Number of Slice LUTs:                 1380  out of  27288     5%  
-    Number used as Logic:              1363  out of  27288     4%  
-    Number used as Memory:               17  out of   6408     0%  
-       Number used as RAM:               16
+ Number of Slice Registers:             561  out of  54576     1%  
+ Number of Slice LUTs:                 1447  out of  27288     5%  
+    Number used as Logic:              1446  out of  27288     5%  
+    Number used as Memory:                1  out of   6408     0%  
        Number used as SRL:                1
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1532
-   Number with an unused Flip Flop:    1042  out of   1532    68%  
-   Number with an unused LUT:           152  out of   1532     9%  
-   Number of fully used LUT-FF pairs:   338  out of   1532    22%  
-   Number of unique control sets:        41
+ Number of LUT Flip Flop pairs used:   1614
+   Number with an unused Flip Flop:    1053  out of   1614    65%  
+   Number with an unused LUT:           167  out of   1614    10%  
+   Number of fully used LUT-FF pairs:   394  out of   1614    24%  
+   Number of unique control sets:        46
 
 IO Utilization: 
  Number of IOs:                         162
@@ -1419,8 +1323,8 @@ IO Utilization:
     IOB Flip Flops/Latches:              16
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:               61  out of    116    52%  
-    Number using Block RAM only:         61
+ Number of Block RAM/FIFO:               63  out of    116    54%  
+    Number using Block RAM only:         63
  Number of BUFG/BUFGCTRLs:                3  out of     16    18%  
  Number of DSP48A1s:                      1  out of     58     1%  
 
@@ -1446,10 +1350,9 @@ Clock Information:
 Clock Signal                        | Clock buffer(FF name)        | Load  |
 ------------------------------------+------------------------------+-------+
 clk_100                             | BUFGP                        | 18    |
-cd10/clk_s                          | BUFG                         | 210   |
-pro_clk_OBUF(pro_clk1:O)            | BUFG(*)(upro/R1/store_0)     | 366   |
+cd10/clk_s                          | BUFG                         | 283   |
+pro_clk_OBUF(pro_clk1:O)            | BUFG(*)(upro/R3/store_0)     | 367   |
 upro/alu/_n0134<0>                  | NONE(upro/alu/out_15)        | 33    |
-c/GND_296_o_GND_296_o_MUX_622_o     | NONE(c/Mram_cache_memory16)  | 16    |
 upro/clk_100_inv(upro/clk_100_inv:O)| NONE(*)(upro/alu/Mram__n0134)| 1     |
 ------------------------------------+------------------------------+-------+
 (*) These 2 clock signal(s) are generated by combinatorial logic,
@@ -1465,9 +1368,9 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 17.032ns (Maximum Frequency: 58.713MHz)
+   Minimum period: 16.838ns (Maximum Frequency: 59.389MHz)
    Minimum input arrival time before clock: 8.443ns
-   Maximum output required time after clock: 11.053ns
+   Maximum output required time after clock: 10.915ns
    Maximum combinational path delay: 5.960ns
 
 Timing Details:
@@ -1500,7 +1403,7 @@ Delay:               4.798ns (Levels of Logic = 2)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'cd10/clk_s'
   Clock period: 10.349ns (frequency: 96.624MHz)
-  Total number of paths / destination ports: 4628 / 1605
+  Total number of paths / destination ports: 6095 / 1713
 -------------------------------------------------------------------------
 Delay:               10.349ns (Levels of Logic = 6)
   Source:            io/addr_io_1 (FF)
@@ -1514,7 +1417,7 @@ Delay:               10.349ns (Levels of Logic = 6)
     ----------------------------------------  ------------
      FD:C->Q              65   0.525   2.392  io/addr_io_1 (io/addr_io_1)
      LUT6:I0->O            1   0.254   0.682  io/n0062<15>2 (io/n0062<15>1)
-     LUT6:I5->O            1   0.254   0.910  io/n0062<15>4_SW0 (N160)
+     LUT6:I5->O            1   0.254   0.910  io/n0062<15>4_SW0 (N206)
      LUT6:I3->O            4   0.235   0.912  io/n0062<15>4 (io/n0062)
      LUT6:I4->O           19   0.250   1.716  io/Mmux_addr_io[15]_addr_io[15]_mux_66_OUT1011 (io/Mmux_addr_io[15]_addr_io[15]_mux_66_OUT101)
      LUT6:I0->O           16   0.254   1.637  io/_n0473_inv1 (io/_n0473_inv)
@@ -1526,51 +1429,30 @@ Delay:               10.349ns (Levels of Logic = 6)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'pro_clk_OBUF'
-  Clock period: 17.032ns (frequency: 58.713MHz)
-  Total number of paths / destination ports: 48381 / 1698
+  Clock period: 16.838ns (frequency: 59.389MHz)
+  Total number of paths / destination ports: 43354 / 575
 -------------------------------------------------------------------------
-Delay:               8.516ns (Levels of Logic = 6)
+Delay:               8.419ns (Levels of Logic = 6)
   Source:            upro/IR/store_13 (FF)
-  Destination:       upro/cu/data_out_36 (FF)
+  Destination:       upro/cu/data_out_31 (FF)
   Source Clock:      pro_clk_OBUF rising
   Destination Clock: pro_clk_OBUF falling
 
-  Data Path: upro/IR/store_13 to upro/cu/data_out_36
+  Data Path: upro/IR/store_13 to upro/cu/data_out_31
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDE:C->Q              8   0.525   0.944  upro/IR/store_13 (upro/IR/store_13)
-     LUT3:I2->O           18   0.254   1.463  upro/m8/Mmux_mux_out61 (test_ins_5_OBUF)
-     LUT5:I2->O            8   0.235   0.944  upro/cu/addr_ins[8]_GND_126_o_equal_35_o<8>11 (upro/cu/addr_ins[8]_GND_126_o_equal_35_o<8>1)
-     LUT6:I5->O            2   0.254   0.954  upro/cu/out42 (upro/cu/out42)
-     LUT6:I3->O            8   0.235   0.944  upro/cu/out4 (upro/cu/out5)
-     LUT6:I5->O           16   0.254   1.182  upro/cu/out5 (upro/cu/n0052)
-     LUT3:I2->O            1   0.254   0.000  upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<11>1 (upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<28>)
-     FD_1:D                    0.074          upro/cu/data_out_28
+     LUT3:I2->O           19   0.254   1.369  upro/m8/Mmux_mux_out61 (test_ins_5_OBUF)
+     LUT5:I3->O            9   0.250   1.084  upro/cu/addr_ins[8]_GND_126_o_equal_35_o<8>11 (upro/cu/addr_ins[8]_GND_126_o_equal_35_o<8>1)
+     LUT6:I4->O            1   0.250   0.682  upro/cu/out42 (upro/cu/out42)
+     LUT3:I2->O           13   0.254   1.098  upro/cu/out43 (upro/cu/out4)
+     LUT6:I5->O           14   0.254   1.127  upro/cu/out5 (upro/cu/out6)
+     LUT6:I5->O            2   0.254   0.000  upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<16>4 (upro/cu/addr_ins[8]_PWR_61_o_select_56_OUT<23>)
+     FD_1:D                    0.074          upro/cu/data_out_23
     ----------------------------------------
-    Total                      8.516ns (2.085ns logic, 6.431ns route)
-                                       (24.5% logic, 75.5% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'c/GND_296_o_GND_296_o_MUX_622_o'
-  Clock period: 1.791ns (frequency: 558.347MHz)
-  Total number of paths / destination ports: 16 / 16
--------------------------------------------------------------------------
-Delay:               1.791ns (Levels of Logic = 0)
-  Source:            c/Mram_cache_memory16 (RAM)
-  Destination:       c/Mram_cache_memory16 (RAM)
-  Source Clock:      c/GND_296_o_GND_296_o_MUX_622_o rising
-  Destination Clock: c/GND_296_o_GND_296_o_MUX_622_o rising
-
-  Data Path: c/Mram_cache_memory16 to c/Mram_cache_memory16
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     RAM64X1S:WCLK->O      1   1.012   0.681  c/Mram_cache_memory16 (c/_n0267<15>)
-     RAM64X1S:D                0.098          c/Mram_cache_memory16
-    ----------------------------------------
-    Total                      1.791ns (1.110ns logic, 0.681ns route)
-                                       (62.0% logic, 38.0% route)
+    Total                      8.419ns (2.115ns logic, 6.304ns route)
+                                       (25.1% logic, 74.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'cd10/clk_s'
@@ -1618,7 +1500,7 @@ Offset:              4.689ns (Levels of Logic = 3)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'cd10/clk_s'
-  Total number of paths / destination ports: 568 / 59
+  Total number of paths / destination ports: 585 / 76
 -------------------------------------------------------------------------
 Offset:              8.336ns (Levels of Logic = 5)
   Source:            bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[54].ram.r/s6_init.ram/TRUE_DP.PRIM18.ram (RAM)
@@ -1641,32 +1523,29 @@ Offset:              8.336ns (Levels of Logic = 5)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'pro_clk_OBUF'
-  Total number of paths / destination ports: 753 / 74
+  Total number of paths / destination ports: 234 / 58
 -------------------------------------------------------------------------
-Offset:              8.376ns (Levels of Logic = 5)
-  Source:            bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[54].ram.r/s6_init.ram/TRUE_DP.PRIM18.ram (RAM)
-  Destination:       memory_data_in_pro<15> (PAD)
-  Source Clock:      pro_clk_OBUF rising
+Offset:              7.517ns (Levels of Logic = 2)
+  Source:            upro/cu/data_out_30 (FF)
+  Destination:       test_ins<0> (PAD)
+  Source Clock:      pro_clk_OBUF falling
 
-  Data Path: bram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[54].ram.r/s6_init.ram/TRUE_DP.PRIM18.ram to memory_data_in_pro<15>
+  Data Path: upro/cu/data_out_30 to test_ins<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB16BWER:CLKB->DOPB0    1   2.100   0.958  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[54].ram.r/s6_init.ram/TRUE_DP.PRIM18.ram (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[54].ram.ram_doutb<8>)
-     LUT6:I2->O            1   0.254   0.958  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_816 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_816)
-     LUT6:I2->O            1   0.254   0.000  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_35 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_35)
-     MUXF7:I1->O           3   0.175   0.765  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_2_f7_4 (doutb<15>)
-     end scope: 'bram:doutb<15>'
-     OBUF:I->O                 2.912          memory_data_in_pro_15_OBUF (memory_data_in_pro<15>)
+     FD_1:C->Q            62   0.525   2.142  upro/cu/data_out_30 (upro/cu/data_out_30)
+     LUT3:I0->O           43   0.235   1.703  upro/m8/Mmux_mux_out11 (test_ins_0_OBUF)
+     OBUF:I->O                 2.912          test_ins_0_OBUF (test_ins<0>)
     ----------------------------------------
-    Total                      8.376ns (5.695ns logic, 2.681ns route)
-                                       (68.0% logic, 32.0% route)
+    Total                      7.517ns (3.672ns logic, 3.845ns route)
+                                       (48.8% logic, 51.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'upro/alu/_n0134<0>'
   Total number of paths / destination ports: 93 / 18
 -------------------------------------------------------------------------
-Offset:              11.053ns (Levels of Logic = 5)
+Offset:              10.915ns (Levels of Logic = 5)
   Source:            upro/alu/ctrl[4]_ctrl[4]_DLATCH_3_q (LATCH)
   Destination:       test_ins<8> (PAD)
   Source Clock:      upro/alu/_n0134<0> falling
@@ -1678,12 +1557,12 @@ Offset:              11.053ns (Levels of Logic = 5)
      LD:G->Q              46   0.581   1.862  upro/alu/ctrl[4]_ctrl[4]_DLATCH_3_q (upro/alu/ctrl[4]_ctrl[4]_DLATCH_3_q)
      LUT2:I0->O           14   0.250   1.582  N27LogicTrst1 (N27)
      LUT6:I0->O            2   0.254   1.181  upro/alu/out11 (upro/alu/out11)
-     LUT6:I0->O            6   0.254   0.984  upro/alu/out13 (upro/alu/out[15]_reduce_or_1_o)
-     LUT2:I0->O            8   0.250   0.943  upro/test_ins<8>1 (test_ins_8_OBUF)
+     LUT6:I0->O            5   0.254   0.949  upro/alu/out13 (upro/alu/out[15]_reduce_or_1_o)
+     LUT2:I0->O            5   0.250   0.840  upro/test_ins<8>1 (test_ins_8_OBUF)
      OBUF:I->O                 2.912          test_ins_8_OBUF (test_ins<8>)
     ----------------------------------------
-    Total                     11.053ns (4.501ns logic, 6.552ns route)
-                                       (40.7% logic, 59.3% route)
+    Total                     10.915ns (4.501ns logic, 6.414ns route)
+                                       (41.2% logic, 58.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100'
@@ -1728,20 +1607,13 @@ Delay:               5.960ns (Levels of Logic = 2)
 Cross Clock Domains Report:
 --------------------------
 
-Clock to Setup on destination clock c/GND_296_o_GND_296_o_MUX_622_o
--------------------------------+---------+---------+---------+---------+
-                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
--------------------------------+---------+---------+---------+---------+
-c/GND_296_o_GND_296_o_MUX_622_o|    1.791|         |         |         |
--------------------------------+---------+---------+---------+---------+
-
 Clock to Setup on destination clock cd10/clk_s
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 cd10/clk_s     |   10.349|         |         |         |
+pro_clk_OBUF   |    6.660|    4.911|         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk_100
@@ -1757,8 +1629,9 @@ Clock to Setup on destination clock pro_clk_OBUF
                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------+---------+---------+---------+---------+
-pro_clk_OBUF      |    5.793|    6.763|   10.914|         |
-upro/alu/_n0134<0>|         |    2.767|   16.423|         |
+cd10/clk_s        |    4.071|         |   10.627|         |
+pro_clk_OBUF      |         |    4.272|   11.458|         |
+upro/alu/_n0134<0>|         |    2.767|   15.623|         |
 ------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock upro/alu/_n0134<0>
@@ -1775,22 +1648,23 @@ Clock to Setup on destination clock upro/clk_100_inv
                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------+---------+---------+---------+---------+
-pro_clk_OBUF      |    8.756|   10.987|         |         |
-upro/alu/_n0134<0>|         |   16.391|         |         |
+cd10/clk_s        |   11.474|         |         |         |
+pro_clk_OBUF      |    9.470|   12.306|         |         |
+upro/alu/_n0134<0>|         |   16.470|         |         |
 ------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 17.00 secs
-Total CPU time to Xst completion: 15.86 secs
+Total REAL time to Xst completion: 18.00 secs
+Total CPU time to Xst completion: 17.50 secs
  
 --> 
 
 
-Total memory usage is 401712 kilobytes
+Total memory usage is 402028 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  222 (   0 filtered)
-Number of infos    :   29 (   0 filtered)
+Number of warnings :  119 (   0 filtered)
+Number of infos    :   27 (   0 filtered)
 

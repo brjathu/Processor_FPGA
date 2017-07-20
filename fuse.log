@@ -1,22 +1,75 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/brjathu/FPGA/Processor_FPGA/cacheTest_isim_beh.exe -prj /home/brjathu/FPGA/Processor_FPGA/cacheTest_beh.prj work.cacheTest work.glbl 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST_with_CACHE_isim_beh.exe" -prj "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST_with_CACHE_beh.prj" "work.BRAM_TEST_with_CACHE" "work.glbl" 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/registerSpecial.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/register.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/mux8.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/decoder16.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/control_unit.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/async.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/ALU.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/ipcore_dir/bram.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/io_module.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/clock_divider.v" into library work
 Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/cache.v" into library work
-Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/cacheTest.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" into library work
+Analyzing Verilog file "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST_with_CACHE.v" into library work
 Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 162: Port control_signals is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/io_module.v" Line 76: Port RxD_endofpacket is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 106: Port n is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 115: Port reset is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 152: Port ck_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 153: Port ck_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 154: Port ck_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 155: Port ck_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 156: Port ck_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 157: Port ck_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 159: Port ck_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 160: Port ck_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 161: Port ck_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 162: Port ck_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 168: Port to_cu is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 169: Port to_cu is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 172: Port to_cu is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 176: Port ck_out is not connected to this instance
 Completed static elaboration
-Fuse Memory Usage: 94700 KB
-Fuse CPU Usage: 1130 ms
+Fuse Memory Usage: 96456 KB
+Fuse CPU Usage: 1190 ms
+Compiling module clock_divider(num_clk=5)
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module bram
+Compiling module BaudTickGen(ClkFrequency=1000000...
+Compiling module async_receiver_default
+Compiling module BaudTickGen(ClkFrequency=1000000...
+Compiling module async_transmitter
+Compiling module io_module
+Compiling module ALU
+Compiling module control_unit
+Compiling module decoder16
+Compiling module mux8
+Compiling module register
+Compiling module register(init_val=6)
+Compiling module register(init_val=15)
+Compiling module registerSpecial
+Compiling module registerSpecial(init_val=1)
+Compiling module register(init_val=20)
+Compiling module u_processor
 Compiling module cache
-Compiling module cacheTest
+Compiling module BRAM_TEST
+Compiling module BRAM_TEST_with_CACHE
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 3 Verilog Units
-Built simulation executable /home/brjathu/FPGA/Processor_FPGA/cacheTest_isim_beh.exe
-Fuse Memory Usage: 1179340 KB
-Fuse CPU Usage: 1150 ms
-GCC CPU Usage: 210 ms
+Compiled 26 Verilog Units
+Built simulation executable /home/brjathu/FPGA/Processor_FPGA/BRAM_TEST_with_CACHE_isim_beh.exe
+Fuse Memory Usage: 1184604 KB
+Fuse CPU Usage: 1270 ms
+GCC CPU Usage: 180 ms

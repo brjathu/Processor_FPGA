@@ -5,749 +5,435 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 158: Port <arg fmt="%s" index="1">control_signals</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 162: Port <arg fmt="%s" index="1">control_signals</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 171: Port <arg fmt="%s" index="1">data_in</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 118: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 114: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/clock_divider.v" Line 26: Result of <arg fmt="%d" index="1">18</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">17</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/clock_divider.v" Line 26: Result of <arg fmt="%d" index="1">18</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">17</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/ipcore_dir/bram.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">bram</arg>&gt; remains a black box.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/ipcore_dir/bram.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">bram</arg>&gt; remains a black box.
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/io_module.v" Line 76: Port <arg fmt="%s" index="1">RxD_endofpacket</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/io_module.v" Line 76: Port <arg fmt="%s" index="1">RxD_endofpacket</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/async.v" Line 186: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/async.v" Line 186: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/io_module.v" Line 120: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/io_module.v" Line 120: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/io_module.v" Line 137: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/io_module.v" Line 137: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/io_module.v" Line 159: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/io_module.v" Line 159: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 106: Port <arg fmt="%s" index="1">n</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 106: Port <arg fmt="%s" index="1">n</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 115: Port <arg fmt="%s" index="1">reset</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 115: Port <arg fmt="%s" index="1">reset</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 152: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 152: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 153: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 153: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 154: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 154: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 155: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 155: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 156: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 156: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 157: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 157: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 159: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 159: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 160: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 160: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 161: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 161: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 162: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 162: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 168: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 168: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 169: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 169: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 172: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 172: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 176: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 176: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/ALU.v" Line 82: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/ALU.v" Line 82: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/ALU.v" Line 92: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/ALU.v" Line 92: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/ALU.v" Line 93: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/ALU.v" Line 93: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/ALU.v" Line 94: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/ALU.v" Line 94: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/ALU.v" Line 95: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/ALU.v" Line 95: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/control_unit.v" Line 140: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/control_unit.v" Line 140: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/decoder16.v" Line 12: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/decoder16.v" Line 12: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 120: Net &lt;<arg fmt="%s" index="1">en</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 120: Net &lt;<arg fmt="%s" index="1">en</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 106: Input port <arg fmt="%s" index="1">clk_100</arg> is not connected on this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 106: Input port <arg fmt="%s" index="1">clk_100</arg> is not connected on this instance
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 115: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 115: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+<msg type="warning" file="HDLCompiler" num="604" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 175: Module instantiation should have an instance name
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 83: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 88: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 96: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 101: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 110: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 115: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 125: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/cache.v" Line 130: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 81: Net &lt;<arg fmt="%s" index="1">finished</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 81: Net &lt;<arg fmt="%s" index="1">finished</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 171: Input port <arg fmt="%s" index="1">data_in[15]</arg> is not connected on this instance
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">162</arg>: Output port &lt;<arg fmt="%s" index="3">control_signals</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">data_in</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">c</arg>&apos;, is tied to GND.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">162</arg>: Output port &lt;<arg fmt="%s" index="3">instruction</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">addr_in</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">c</arg>&apos;, is tied to GND.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">162</arg>: Output port &lt;<arg fmt="%s" index="3">mux8</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">memory_write_en</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">c</arg>&apos;, is tied to GND.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">162</arg>: Output port &lt;<arg fmt="%s" index="3">b_bus</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">clk_100</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">c</arg>&apos;, is tied to GND.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">162</arg>: Output port &lt;<arg fmt="%s" index="3">acc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">158</arg>: Output port &lt;<arg fmt="%s" index="3">control_signals</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">162</arg>: Output port &lt;<arg fmt="%s" index="3">finished</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">158</arg>: Output port &lt;<arg fmt="%s" index="3">instruction</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">finished</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">158</arg>: Output port &lt;<arg fmt="%s" index="3">mux8</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">data_in_io&lt;15:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">158</arg>: Output port &lt;<arg fmt="%s" index="3">b_bus</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/io_module.v</arg>&quot; line <arg fmt="%s" index="2">76</arg>: Output port &lt;<arg fmt="%s" index="3">RxD_endofpacket</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uutrx</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">158</arg>: Output port &lt;<arg fmt="%s" index="3">acc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">clk_100</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">alu</arg>&apos;, is tied to GND.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">158</arg>: Output port &lt;<arg fmt="%s" index="3">finished</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">upro</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">cu</arg>&apos;, is tied to GND.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">171</arg>: Output port &lt;<arg fmt="%s" index="3">data_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">106</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v</arg>&quot; line <arg fmt="%s" index="2">171</arg>: Output port &lt;<arg fmt="%s" index="3">addr_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">106</arg>: Output port &lt;<arg fmt="%s" index="3">o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">finished</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">152</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">data_in_io&lt;15:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/io_module.v</arg>&quot; line <arg fmt="%s" index="2">76</arg>: Output port &lt;<arg fmt="%s" index="3">RxD_endofpacket</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uutrx</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">154</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">clk_100</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">alu</arg>&apos;, is tied to GND.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R3</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">cu</arg>&apos;, is tied to GND.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">156</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R4</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">106</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">157</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R5</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">106</arg>: Output port &lt;<arg fmt="%s" index="3">o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">159</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R7</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">152</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">160</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R8</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">161</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R9</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">154</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">162</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R10</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R3</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">168</arg>: Output port &lt;<arg fmt="%s" index="3">to_cu</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MDR</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">156</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R4</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">169</arg>: Output port &lt;<arg fmt="%s" index="3">to_cu</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MAR</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">157</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R5</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">to_cu</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">PC</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">159</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R7</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">176</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ACC</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">160</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R8</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">en</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">161</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R9</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clk_100</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">162</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">R10</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">n</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">168</arg>: Output port &lt;<arg fmt="%s" index="3">to_cu</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MDR</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">o</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">169</arg>: Output port &lt;<arg fmt="%s" index="3">to_cu</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MAR</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_2_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">to_cu</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">PC</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_3_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/brjathu/FPGA/Processor_FPGA/u_processor.v</arg>&quot; line <arg fmt="%s" index="2">176</arg>: Output port &lt;<arg fmt="%s" index="3">ck_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ACC</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_4_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">en</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_6_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk_100</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_8_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">n</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_10_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">o</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_12_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_2_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_14_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_3_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_16_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_4_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_18_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_6_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_20_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_8_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_22_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_10_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_24_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_12_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_26_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_14_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_28_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_16_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_30_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_18_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">out&lt;15&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_20_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">en</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_22_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_24_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">hit</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_26_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">data_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cu</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_28_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_cache_memory</arg>&gt; will be implemented as BLOCK RAM
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ctrl[4]_ctrl[4]_DLATCH_30_q</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_tag</arg>&gt; will be implemented as BLOCK RAM
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">out&lt;15&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">en</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">hit</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">hit</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">cache</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
-</msg>
-
-<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">addr_in_reg</arg>&lt;<arg fmt="%d" index="2">15</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">data_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cu</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">addr_out</arg>&lt;<arg fmt="%d" index="2">15</arg>:<arg fmt="%d" index="3">2</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">cache</arg>&gt;.
-</msg>
-
-<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_cache_memory</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
-</msg>
-
-<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_tag</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
-</msg>
-
-<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">alu/Mram__n0134</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">cu/data_out_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_out_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">addr_out_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">addr_out_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">R0/store_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">alu/Mram__n0134</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">cu/data_out_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory49</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory50</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory52</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory53</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory54</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory55</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">R0/store_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_processor</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory59</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">state_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">io_module</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">state_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">io_module</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">state_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">io_module</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory62</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Acc_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BaudTickGen_1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory60</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Acc_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BaudTickGen_1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Acc_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BaudTickGen_1</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory63</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory64</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory36</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory40</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">upro/cu/write_loc_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BRAM_TEST</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">upro/cu/data_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BRAM_TEST</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">upro/cu/finished</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BRAM_TEST</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory42</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory45</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory43</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory44</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory48</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory46</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_cache_memory47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">state_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">io_module</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">state_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">io_module</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">state_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">io_module</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Acc_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BaudTickGen_1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Acc_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BaudTickGen_1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Acc_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BaudTickGen_1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">cu/immediate_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">u_processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">counter_FSM_FFd2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">counter_FSM_FFd1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">counter_mem_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">counter_mem_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">counter_mem_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;9&gt;</arg> and <arg fmt="%s" index="3">_n0267&lt;9&gt;</arg> <arg fmt="%s" index="4">_n0267&lt;9&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;8&gt;</arg> and <arg fmt="%s" index="3">_n0267&lt;8&gt;</arg> <arg fmt="%s" index="4">_n0267&lt;8&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;15&gt;</arg> and <arg fmt="%s" index="3">_n0267&lt;15&gt;</arg> <arg fmt="%s" index="4">_n0267&lt;15&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;14&gt;</arg> and <arg fmt="%s" index="3">_n0267&lt;14&gt;</arg> <arg fmt="%s" index="4">_n0267&lt;14&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;13&gt;</arg> and <arg fmt="%s" index="3">_n0267&lt;13&gt;</arg> <arg fmt="%s" index="4">_n0267&lt;13&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;12&gt;</arg> and <arg fmt="%s" index="3">_n0267&lt;12&gt;</arg> <arg fmt="%s" index="4">_n0267&lt;12&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;11&gt;</arg> and <arg fmt="%s" index="3">_n0267&lt;11&gt;</arg> <arg fmt="%s" index="4">_n0267&lt;11&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;10&gt;</arg> and <arg fmt="%s" index="3">_n0267&lt;10&gt;</arg> <arg fmt="%s" index="4">_n0267&lt;10&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;7&gt;</arg> and <arg fmt="%s" index="3">_n0266&lt;7&gt;</arg> <arg fmt="%s" index="4">_n0266&lt;7&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;6&gt;</arg> and <arg fmt="%s" index="3">_n0266&lt;6&gt;</arg> <arg fmt="%s" index="4">_n0266&lt;6&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;5&gt;</arg> and <arg fmt="%s" index="3">_n0266&lt;5&gt;</arg> <arg fmt="%s" index="4">_n0266&lt;5&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;4&gt;</arg> and <arg fmt="%s" index="3">_n0266&lt;4&gt;</arg> <arg fmt="%s" index="4">_n0266&lt;4&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;3&gt;</arg> and <arg fmt="%s" index="3">_n0266&lt;3&gt;</arg> <arg fmt="%s" index="4">_n0266&lt;3&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;2&gt;</arg> and <arg fmt="%s" index="3">_n0266&lt;2&gt;</arg> <arg fmt="%s" index="4">_n0266&lt;2&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;1&gt;</arg> and <arg fmt="%s" index="3">_n0266&lt;1&gt;</arg> <arg fmt="%s" index="4">_n0266&lt;1&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">cache</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">_n0275&lt;0&gt;</arg> and <arg fmt="%s" index="3">_n0266&lt;0&gt;</arg> <arg fmt="%s" index="4">_n0266&lt;0&gt;</arg> signal will be lost.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_tag1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_tag4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_tag2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_tag3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">BRAM_TEST</arg>: <arg fmt="%d" index="2">79</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_tag5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_tag6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
+<msg type="warning" file="Xst" num="2040" delta="old" >Unit <arg fmt="%s" index="1">BRAM_TEST</arg>: <arg fmt="%d" index="2">32</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_tag7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">registerSpecial_2</arg>: <arg fmt="%d" index="2">32</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_tag8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cache</arg>&gt;.
-</msg>
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">registerSpecial_1</arg>: <arg fmt="%d" index="2">32</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">upro/cu/write_loc_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BRAM_TEST</arg>&gt;.
-</msg>
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">register_3</arg>: <arg fmt="%d" index="2">16</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">upro/cu/data_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BRAM_TEST</arg>&gt;.
-</msg>
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">register_2</arg>: <arg fmt="%d" index="2">16</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">upro/cu/finished</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BRAM_TEST</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">io/uutrx/RxD_endofpacket</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BRAM_TEST</arg>&gt;.
 </msg>
-
-<msg type="warning" file="Xst" num="2042" delta="new" >Unit <arg fmt="%s" index="1">BRAM_TEST</arg>: <arg fmt="%d" index="2">79</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
-
-<msg type="warning" file="Xst" num="2040" delta="new" >Unit <arg fmt="%s" index="1">BRAM_TEST</arg>: <arg fmt="%d" index="2">32</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
-
-<msg type="warning" file="Xst" num="2042" delta="new" >Unit <arg fmt="%s" index="1">registerSpecial_2</arg>: <arg fmt="%d" index="2">32</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
-
-<msg type="warning" file="Xst" num="2042" delta="new" >Unit <arg fmt="%s" index="1">registerSpecial_1</arg>: <arg fmt="%d" index="2">32</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
-
-<msg type="warning" file="Xst" num="2042" delta="new" >Unit <arg fmt="%s" index="1">register_4</arg>: <arg fmt="%d" index="2">16</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
-
-<msg type="warning" file="Xst" num="2042" delta="new" >Unit <arg fmt="%s" index="1">register_3</arg>: <arg fmt="%d" index="2">16</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
-
-<msg type="warning" file="Xst" num="2042" delta="new" >Unit <arg fmt="%s" index="1">register_2</arg>: <arg fmt="%d" index="2">16</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">io/uutrx/RxD_endofpacket</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BRAM_TEST</arg>&gt;.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">io/auto_send_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">io/uutrx/ready_counter_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">io/uutrx/ready_counter_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">_i000009/counter_mem_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">BRAM_TEST</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>
 
 </messages>
