@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-07-02T18:09:16</DateModified>
+  <DateModified>2017-07-20T07:46:53</DateModified>
   <ModuleName>BRAM_TEST</ModuleName>
   <SummaryTimeStamp>2017-06-28T00:30:56</SummaryTimeStamp>
-  <SavedFilePath>/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/iseconfig/BRAM_TEST.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/brjathu/FPGA/Processor_FPGA/iseconfig/BRAM_TEST.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/brjathu/FPGA/Processor_FPGA/</ImplementationReportsDirectory>
   <DateInitialized>2017-02-26T12:38:45</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

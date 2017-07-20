@@ -1,6 +1,12 @@
 ISim log file
-Running: /home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/cache_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/cache_test_isim_beh.wdb 
+Running: /home/brjathu/FPGA/Processor_FPGA/cache_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/brjathu/FPGA/Processor_FPGA/cache_test_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '1704@licserver.mrt.ac.lk' in /home/brjathu/.flexlmrc.
+WARNING:Security:42 - Your license support version '2017.07' for ISIM expires in 11 days after which you will not qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
 This is a Full version of ISim.
 Time resolution is 1 ps
 # onerror resume

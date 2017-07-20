@@ -1,19 +1,18 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-GP62-6QE::  Wed Jun 28 00:30:36 2017
+GP62-6QE::  Thu Jul 20 07:49:19 2017
 
 par -w -intstyle ise -ol high -smartguide
-/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/BRAM_TEST_guide.n
-cd -mt off BRAM_TEST_map.ncd BRAM_TEST.ncd BRAM_TEST.pcf 
+/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST_guide.ncd -mt off BRAM_TEST_map.ncd
+BRAM_TEST.ncd BRAM_TEST.pcf 
 
 
 Constraints file: BRAM_TEST.pcf.
 Loading device for application Rf_Device from file '6slx45.nph' in environment /opt/Xilinx/14.7/ISE_DS/ISE/.
    "BRAM_TEST" is an NCD, version 3.2, device xc6slx45, package csg324, speed -2
 
-Loading database for application par from file:
-"/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/BRAM_TEST_guide.ncd"
+Loading database for application par from file: "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST_guide.ncd"
    "BRAM_TEST" is an NCD, version 3.2, device xc6slx45, package csg324, speed -2
 
 Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
@@ -38,9 +37,9 @@ Slice Logic Utilization:
     Number used as AND/OR logics:                0
   Number of Slice LUTs:                      1,192 out of  27,288    4%
     Number used as logic:                    1,186 out of  27,288    4%
-      Number using O6 output only:             754
+      Number using O6 output only:             751
       Number using O5 output only:              81
-      Number using O5 and O6:                  351
+      Number using O5 and O6:                  354
       Number used as ROM:                        0
     Number used as Memory:                       1 out of   6,408    1%
       Number used as Dual Port RAM:              0
@@ -55,12 +54,12 @@ Slice Logic Utilization:
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   505 out of   6,822    7%
+  Number of occupied Slices:                   500 out of   6,822    7%
   Number of MUXCYs used:                       336 out of  13,644    2%
-  Number of LUT Flip Flop pairs used:        1,390
-    Number with an unused Flip Flop:           922 out of   1,390   66%
-    Number with an unused LUT:                 198 out of   1,390   14%
-    Number of fully used LUT-FF pairs:         270 out of   1,390   19%
+  Number of LUT Flip Flop pairs used:        1,379
+    Number with an unused Flip Flop:           912 out of   1,379   66%
+    Number with an unused LUT:                 187 out of   1,379   13%
+    Number of fully used LUT-FF pairs:         280 out of   1,379   20%
     Number of slice register sites lost
       to control set restrictions:               0 out of  54,576    0%
 
@@ -71,8 +70,8 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                       161 out of     218   73%
-    Number of LOCed IOBs:                       12 out of     161    7%
+  Number of bonded IOBs:                       162 out of     218   74%
+    Number of LOCed IOBs:                       12 out of     162    7%
     IOB Latches:                                16
 
 Specific Feature Utilization:
@@ -106,33 +105,33 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 6 secs 
-Finished initial Timing Analysis.  REAL time: 6 secs 
+Starting initial Timing Analysis.  REAL time: 5 secs 
+Finished initial Timing Analysis.  REAL time: 5 secs 
 
 Starting Router
 
 
-Phase  1  : 7469 unrouted;      REAL time: 7 secs 
+Phase  1  : 6563 unrouted;      REAL time: 6 secs 
 
-Phase  2  : 2801 unrouted;      REAL time: 8 secs 
+Phase  2  : 1919 unrouted;      REAL time: 7 secs 
 
-Phase  3  : 1746 unrouted;      REAL time: 9 secs 
+Phase  3  : 1162 unrouted;      REAL time: 8 secs 
 
-Phase  4  : 1746 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 10 secs 
+Phase  4  : 1162 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 12 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 10 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 12 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 10 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 12 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 10 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 12 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 10 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 12 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 10 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 12 secs 
-Total REAL time to Router completion: 12 secs 
-Total CPU time to Router completion: 10 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 10 secs 
+Total REAL time to Router completion: 10 secs 
+Total CPU time to Router completion: 9 secs 
 
   SmartGuide Results
   ------------------
@@ -140,15 +139,15 @@ Total CPU time to Router completion: 10 secs
   report accurately reflects the differences between the input design
   and the guide design.
 
-  Number of Components in the input design    |    747
-    Number of guided Components               |    673 out of    747  90.1%
-    Number of re-implemented Components       |     27 out of    747   3.6%
-    Number of new/changed Components          |     47 out of    747   6.3%
-  Number of Nets in the input design          |   2215
-    Number of guided Nets                     |   1574 out of   2215  71.1%
-    Number of partially guided Nets           |    177 out of   2215   8.0%
-    Number of re-routed Nets                  |    382 out of   2215  17.2%
-    Number of new/changed Nets                |     82 out of   2215   3.7%
+  Number of Components in the input design    |    743
+    Number of guided Components               |    707 out of    743  95.2%
+    Number of re-implemented Components       |     16 out of    743   2.2%
+    Number of new/changed Components          |     20 out of    743   2.7%
+  Number of Nets in the input design          |   2216
+    Number of guided Nets                     |   1715 out of   2216  77.4%
+    Number of partially guided Nets           |    180 out of   2216   8.1%
+    Number of re-routed Nets                  |    294 out of   2216  13.3%
+    Number of new/changed Nets                |     27 out of   2216   1.2%
 
 Partition Implementation Status
 -------------------------------
@@ -166,15 +165,15 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|   pro_clk_OBUF_BUFG | BUFGMUX_X3Y13| No   |  150 |  0.061     |  1.771      |
-+---------------------+--------------+------+------+------------+-------------+
 |     cd10/clk_s_BUFG |  BUFGMUX_X2Y3| No   |  108 |  0.059     |  1.769      |
++---------------------+--------------+------+------+------------+-------------+
+|   pro_clk_OBUF_BUFG | BUFGMUX_X3Y13| No   |  151 |  0.061     |  1.771      |
 +---------------------+--------------+------+------+------------+-------------+
 |       clk_100_BUFGP |  BUFGMUX_X2Y4| No   |    6 |  0.023     |  1.769      |
 +---------------------+--------------+------+------+------------+-------------+
-|    upro/clk_100_inv |         Local|      |    1 |  0.000     |  2.116      |
+|  upro/alu/_n0134<0> |         Local|      |   33 |  3.879     |  6.020      |
 +---------------------+--------------+------+------+------------+-------------+
-|  upro/alu/_n0134<0> |         Local|      |   33 |  3.872     |  6.013      |
+|    upro/clk_100_inv |         Local|      |    1 |  0.000     |  2.116      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -206,10 +205,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 13 secs 
-Total CPU time to PAR completion: 11 secs 
+Total REAL time to PAR completion: 11 secs 
+Total CPU time to PAR completion: 10 secs 
 
-Peak Memory Usage:  779 MB
+Peak Memory Usage:  777 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

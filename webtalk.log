@@ -4,7 +4,7 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 Project Information
 --------------------
 ProjectID=4C40DE752269902FC4B53A9B6F452E97
-ProjectIteration=58
+ProjectIteration=60
 
 WebTalk Summary
 ----------------
@@ -13,4 +13,4 @@ INFO:WebTalk:2 - WebTalk is enabled.
 INFO:WebTalk:8 - WebTalk Install setting is ON.
 INFO:WebTalk:6 - WebTalk User setting is ON.
 
-INFO:WebTalk:5 - /home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
+INFO:WebTalk:5 - /home/brjathu/FPGA/Processor_FPGA/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html

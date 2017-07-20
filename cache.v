@@ -78,7 +78,7 @@ always@(posedge clk_100) begin
 		else begin
 			//hit=0
 			if(counter == 0) begin
-				addr_out <= {addr_in[15:2].2'b00};
+				addr_out <= {addr_in[15:2],2'b00};
 				if(counter_mem != 3) begin
 					counter_mem <= counter_mem + 1;
 				end
@@ -91,7 +91,7 @@ always@(posedge clk_100) begin
 			
 			
 			else if(counter == 1) begin
-				addr_out <= {addr_in[15:2].2'b01};
+				addr_out <= {addr_in[15:2],2'b01};
 				if(counter_mem != 3) begin
 					counter_mem <= counter_mem + 1;
 				end
@@ -105,7 +105,7 @@ always@(posedge clk_100) begin
 			
 			
 			else if(counter == 2) begin
-				addr_out <= {addr_in[15:2].2'b10};
+				addr_out <= {addr_in[15:2],2'b10};
 				if(counter_mem != 3) begin
 					counter_mem <= counter_mem + 1;
 				end
@@ -120,7 +120,7 @@ always@(posedge clk_100) begin
 			
 			
 			else if(counter == 3) begin
-				addr_out <= {addr_in[15:2].2'b11};
+				addr_out <= {addr_in[15:2],2'b11};
 				if(counter_mem != 3) begin
 					counter_mem <= counter_mem + 1;
 				end
@@ -129,7 +129,7 @@ always@(posedge clk_100) begin
 					counter_mem <= 0;
 					counter <= 0;
 					
-					tag[addr_in_reg[7:2]] <= addr_in_reg[15:8]
+					tag[addr_in_reg[7:2]] <= addr_in_reg[15:8];
 				end
 			
 			end

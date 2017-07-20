@@ -3,11 +3,11 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Wed Jun 28 00:30:34 2017">
+<application name="pn" timeStamp="Thu Jul 20 07:49:17 2017">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="4C40DE752269902FC4B53A9B6F452E97" type="project"/>
-<property name="ProjectIteration" value="59" type="project"/>
-<property name="ProjectFile" value="/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/processor_final_version4-uart_ledsignals_ok.xise" type="project"/>
+<property name="ProjectIteration" value="60" type="project"/>
+<property name="ProjectFile" value="/home/brjathu/FPGA/Processor_FPGA/processor_final_version4-uart_ledsignals_ok.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2017-03-03T16:35:57" type="project"/>
 </section>
 <section name="Project Statistics" visible="true">
@@ -17,7 +17,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_LastAppliedStrategy" value="Xilinx Default (unlocked)" type="design"/>
 <property name="PROP_ManualCompileOrderImp" value="false" type="design"/>
 <property name="PROP_PropSpecInProjFile" value="Store all values" type="design"/>
-<property name="PROP_SelectedInstanceHierarchicalPath" value="/test_processor" type="process"/>
+<property name="PROP_SelectedInstanceHierarchicalPath" value="/cache_test" type="process"/>
 <property name="PROP_Simulator" value="ISim (VHDL/Verilog)" type="design"/>
 <property name="PROP_SynthOptEffort_spartan6" value="High" type="process"/>
 <property name="PROP_SynthTopFile" value="changed" type="process"/>
@@ -27,24 +27,24 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2017-03-03T16:35:57" type="design"/>
 <property name="PROP_intWbtProjectID" value="4C40DE752269902FC4B53A9B6F452E97" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="59" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="60" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_lockPinsUcfFile" value="changed" type="process"/>
-<property name="PROP_selectedSimRootSourceNode_behav" value="work.test_processor" type="process"/>
+<property name="PROP_selectedSimRootSourceNode_behav" value="work.cache_test" type="process"/>
 <property name="PROP_AutoTop" value="true" type="design"/>
 <property name="PROP_DevFamily" value="Spartan6" type="design"/>
 <property name="PROP_SynthRAMStyle" value="Block" type="process"/>
 <property name="PROP_DevDevice" value="xc6slx45" type="design"/>
 <property name="PROP_DevFamilyPMName" value="spartan6" type="design"/>
-<property name="PROP_ISimSimulationRunTime_behav_tb" value="1000000 ns" type="process"/>
+<property name="PROP_ISimSimulationRunTime_behav_tb" value="200 ns" type="process"/>
 <property name="PROP_DevPackage" value="csg324" type="design"/>
 <property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
 <property name="PROP_DevSpeed" value="-2" type="design"/>
 <property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
 <property name="FILE_COREGEN" value="1" type="source"/>
 <property name="FILE_UCF" value="1" type="source"/>
-<property name="FILE_VERILOG" value="34" type="source"/>
+<property name="FILE_VERILOG" value="35" type="source"/>
 </section>
 </application>
 </document>

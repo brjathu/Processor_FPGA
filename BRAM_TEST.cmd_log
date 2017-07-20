@@ -1650,3 +1650,11 @@ ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uart.ucf -p xc6
 map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/BRAM_TEST_guide.ncd" -power off -o BRAM_TEST_map.ncd BRAM_TEST.ngd BRAM_TEST.pcf 
 par -w -intstyle ise -ol high -smartguide "/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/BRAM_TEST_guide.ncd" -mt off BRAM_TEST_map.ncd BRAM_TEST.ncd BRAM_TEST.pcf 
 trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BRAM_TEST.twx BRAM_TEST.ncd -o BRAM_TEST.twr BRAM_TEST.pcf -ucf uart.ucf 
+xst -intstyle ise -ifn "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.xst" -ofn "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.syr" 
+xst -intstyle ise -ifn "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.xst" -ofn "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.syr" 
+xst -intstyle ise -ifn "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.xst" -ofn "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uart.ucf -p xc6slx45-csg324-2 BRAM_TEST.ngc BRAM_TEST.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST_guide.ncd" -power off -o BRAM_TEST_map.ncd BRAM_TEST.ngd BRAM_TEST.pcf 
+par -w -intstyle ise -ol high -smartguide "/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST_guide.ncd" -mt off BRAM_TEST_map.ncd BRAM_TEST.ncd BRAM_TEST.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml BRAM_TEST.twx BRAM_TEST.ncd -o BRAM_TEST.twr BRAM_TEST.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f BRAM_TEST.ut BRAM_TEST.ncd 

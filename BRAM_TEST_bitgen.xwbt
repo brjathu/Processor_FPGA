@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/BRAM_TEST.ncd
-OUTFILE=/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok/BRAM_TEST.bit
+INFILE=/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.ncd
+OUTFILE=/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.bit
 FAMILY=Spartan6
 PART=xc6slx45-2csg324
-WORKINGDIR=/home/brjathu/FPGA/processor_final_version4-uart_ledsignals_ok
+WORKINGDIR=/home/brjathu/FPGA/Processor_FPGA
 LICENSE=WebPack
 USER_INFO=176453893_200471044_210637353_003
