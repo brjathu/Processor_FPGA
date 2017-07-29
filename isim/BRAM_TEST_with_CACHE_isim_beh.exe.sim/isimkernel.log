@@ -2,9 +2,9 @@ Command line:
    BRAM_TEST_with_CACHE_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  37703
+     -socket  45765
 
-Thu Jul 20 21:28:13 2017
+Sat Jul 29 11:16:49 2017
 
 
- Elaboration Time: 0.09 sec
+ Elaboration Time: 0.06 sec

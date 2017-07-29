@@ -10,7 +10,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="46" />
+   <WVObjectSize size="47" />
    <wvobject fp_name="/BRAM_TEST_with_CACHE/tx" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">tx</obj_property>
       <obj_property name="ObjectShortName">tx</obj_property>
@@ -50,14 +50,17 @@
    <wvobject fp_name="/BRAM_TEST_with_CACHE/memory_addr_pro" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">memory_addr_pro[15:0]</obj_property>
       <obj_property name="ObjectShortName">memory_addr_pro[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/BRAM_TEST_with_CACHE/memory_data_in_pro" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">memory_data_in_pro[15:0]</obj_property>
       <obj_property name="ObjectShortName">memory_data_in_pro[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/BRAM_TEST_with_CACHE/memory_data_out_pro" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">memory_data_out_pro[15:0]</obj_property>
       <obj_property name="ObjectShortName">memory_data_out_pro[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/BRAM_TEST_with_CACHE/we_pro" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">we_pro</obj_property>
@@ -120,6 +123,10 @@
    <wvobject fp_name="/BRAM_TEST_with_CACHE/hit" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">hit</obj_property>
       <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cache_read</obj_property>
+      <obj_property name="ObjectShortName">cache_read</obj_property>
    </wvobject>
    <wvobject fp_name="/BRAM_TEST_with_CACHE/clk_100" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">clk_100</obj_property>
@@ -198,6 +205,265 @@
    <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">cache_memory[63:0,63:0]</obj_property>
       <obj_property name="ObjectShortName">cache_memory[63:0,63:0]</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[63]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[63,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[63,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[62]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[62,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[62,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[61]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[61,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[61,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[60]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[60,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[60,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[59]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[59,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[59,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[58]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[58,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[58,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[57]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[57,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[57,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[56]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[56,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[56,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[55]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[55,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[55,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[54]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[54,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[54,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[53]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[53,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[53,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[52]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[52,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[52,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[51]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[51,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[51,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[50]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[50,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[50,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[49]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[49,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[49,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[48]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[48,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[48,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[47]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[47,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[47,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[46]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[46,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[46,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[45]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[45,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[45,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[44]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[44,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[44,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[43]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[43,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[43,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[42]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[42,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[42,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[41]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[41,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[41,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[40]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[40,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[40,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[39]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[39,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[39,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[38]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[38,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[38,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[37]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[37,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[37,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[36]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[36,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[36,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[35]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[35,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[35,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[34]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[34,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[34,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[33]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[33,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[33,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[32]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[32,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[32,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[31,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[30,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[29,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[28,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[27,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[26,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[25,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[24,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[23,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[22,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[21,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[20,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[19,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[18,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[17,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[16,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[15,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[14,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[13,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[12,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[11,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[10,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[9,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[8,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[7,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[6,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[5,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[4,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[3,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[2,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[1,63:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BRAM_TEST_with_CACHE/uut/cache/cache_memory[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,63:0]</obj_property>
+         <obj_property name="ObjectShortName">cache_memory[0,63:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
    </wvobject>
    <wvobject fp_name="group171" type="group">
       <obj_property name="label">1</obj_property>

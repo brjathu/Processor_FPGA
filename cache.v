@@ -27,11 +27,13 @@ module cache(
 		addr_out,
 		hit,
 		memory_write_en,
-		clk_100
+		clk_100,
+		cache_read
 		
     );
 
 input wire [15:0] data_in_from_pro;
+input wire cache_read;
 input wire [15:0] data_in_from_mem;
 output reg [15:0] data_out_to_pro;
 output reg [15:0] data_out_to_mem;
@@ -60,7 +62,7 @@ end
 
 always@(posedge clk_100) begin
 	addr_in_reg <= addr_in;
-	if(memory_write_en == 0)begin
+	if(cache_read == 1)begin
 		if(tag[addr_in_reg[7:2]] == addr_in_reg[15:8]) begin
 			if(addr_in_reg[1:0] == 0) begin
 				data_out_to_pro <= cache_memory[addr_in_reg[7:2]][15:0];
@@ -147,7 +149,7 @@ always@(posedge clk_100) begin
 			
 		end
 	end
-	else begin
+	else if(memory_write_en==1) begin
 		data_out_to_mem   <= data_in_from_pro;
 		addr_out 			<= addr_in;
 	

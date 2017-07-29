@@ -35,7 +35,8 @@ module u_processor(
 		
 		z,
 		finished,
-		hit
+		hit,
+		cache_read
     );
 	input clk_100;
 	output wire memory_write_en;
@@ -89,6 +90,9 @@ wire [15:0] b_bus;
 wire [15:0] acc; //bus form Accumulator
 wire [15:0] c_bus;
 
+//cache
+output wire cache_read;
+
 //test
 assign test_ins={ (z && control_signals[28]) || (hit && (control_signals[1] || control_signals[0])) , mux8};
 
@@ -103,6 +107,8 @@ assign memory_out  = ( control_signals[1] == 1 ||  control_signals[2] == 1) ? me
 assign memory_data_in  =( control_signals[1] == 1) ? memory_in  : 16'bz;
 assign ir_data  =( control_signals[0] == 1 ) ? memory_in  : 16'bz;
 
+
+assign cache_read = (control_signals[1] || control_signals[0]);
 ALU alu(		.b_bus(b_bus),
 				.acc(acc),
 				.ctrl(control_signals[27:23]),

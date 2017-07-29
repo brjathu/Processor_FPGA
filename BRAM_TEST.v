@@ -91,6 +91,7 @@ assign 		led_pro = ~finished && sw1;
 
 //cache
 output wire hit;
+wire cache_read;
 
 wire ena,enb;
 wire clk_10;
@@ -169,7 +170,8 @@ u_processor upro(
 		.z(z),
 		.c_bus(c_bus),
 		.test_ins(test_ins),
-		.hit(hit)
+		.hit(hit),
+		.cache_read(cache_read)
     );
 
 cache cache(
@@ -181,7 +183,8 @@ cache cache(
 		.addr_out(addr_from_cache),
 		.hit(hit),
 		.memory_write_en(we_pro),
-		.clk_100(pro_clk)
+		.clk_100(pro_clk),
+		.cache_read(cache_read)
 		
     );
 

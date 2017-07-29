@@ -5,31 +5,16 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 162: Port <arg fmt="%s" index="1">control_signals</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/BRAM_TEST.v" Line 163: Port <arg fmt="%s" index="1">control_signals</arg> is not connected to this instance
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/io_module.v" Line 76: Port <arg fmt="%s" index="1">RxD_endofpacket</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 106: Port <arg fmt="%s" index="1">n</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 112: Port <arg fmt="%s" index="1">n</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 115: Port <arg fmt="%s" index="1">reset</arg> is not connected to this instance
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 152: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 153: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 154: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 155: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 156: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 121: Port <arg fmt="%s" index="1">reset</arg> is not connected to this instance
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 158: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
@@ -47,16 +32,31 @@
 <msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 162: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 168: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 164: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 169: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 165: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 172: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 166: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 176: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 167: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 168: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 174: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 175: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 178: Port <arg fmt="%s" index="1">to_cu</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/brjathu/FPGA/Processor_FPGA/u_processor.v" Line 182: Port <arg fmt="%s" index="1">ck_out</arg> is not connected to this instance
 </msg>
 
 </messages>
